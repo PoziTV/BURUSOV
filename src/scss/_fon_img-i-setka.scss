@@ -1,0 +1,36 @@
+.fon {
+	left: 50%;
+	transform: translateX(-50%);
+	position: absolute;
+	background-image: url(/src/img/fon.png);
+	background-position-x: center;
+	opacity: 1;
+	min-width: 1154px;
+
+	.myCol {
+		// visibility: hidden;
+		height: 10000px;
+		text-align: center;
+		color: red;
+
+		&:nth-child(2n) {
+			background: rgba($color: #bebebe, $alpha: 0.5);
+		}
+
+		&:nth-child(2n+1) {
+			background: rgba($color: #0036a3, $alpha:0.3);
+		}
+	}
+}
+
+.myCola {
+	height: 10000px;
+
+	&:nth-child(2n) {
+		background: rgba($color: #850000, $alpha: 0.3);
+	}
+
+	&:nth-child(2n+1) {
+		background: rgba($color: #0ea300, $alpha:0.2);
+	}
+}
