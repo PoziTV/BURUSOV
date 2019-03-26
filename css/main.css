@@ -1,7 +1,21 @@
-.fff {
+.fon {
+  margin-left: 110px;
+  position: absolute;
   background-image: url(/fon.png);
   background-position-x: center;
-  background-color: rgba(255, 255, 255, 0.1);
+  opacity: 0.3;
+}
+
+.fon .myCol {
+  height: 10000px;
+  text-align: center;
+  color: red;
+  border: 1px solid gray;
+  width: 47.1px;
+}
+
+.wrap {
+  height: 500px;
 }
 
 .header {

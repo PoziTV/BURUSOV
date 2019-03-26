@@ -3,14 +3,14 @@ body {}
 .fff {
 	// position: absolute;
 	// width: 100vh;
-background-image: url(/fon.png);
-	background-position-x: center;
-	background-color: rgba(255, 255,255, .1) ;
+	// background-image: url(/fon.png);
+	// background-position-x: center;
+	// background-color: rgba(255, 255, 255, .1);
 	// z-index: 100;
 }
 
 .fon-img {
-	
+
 	// 	position: absolute;
 	// 	top: 0;
 	// 	z-index: -100;
@@ -52,20 +52,23 @@ background-image: url(/fon.png);
 
 	// padding-top: 100px;
 	// margin-bottom: -10060px;
-	// padding-left: 110px;
-	// position: absolute;
+	margin-left: 110px;
+	position: absolute;
+	background-image: url(/fon.png);
+	background-position-x: center;
+	opacity: 0.3;
 	// z-index: -100;
 	// top:
 	// 	/*100px;*/
 	// 	0;
 
-	// .myCol {
-	// 	height: 10000px;
-	// 	text-align: center;
-	// 	color: red;
-	// 	// padding: 0 5px;
-	// 	border: 1px solid gray;
-	// 	width: 47.1px;
+	.myCol {
+		height: 10000px;
+			text-align: center;
+			color: red;
+		// 	// padding: 0 5px;
+			border: 1px solid gray;
+			width: 47.1px;
 
-	// }
+	}
 }
