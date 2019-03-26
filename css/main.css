@@ -1,0 +1,40 @@
+.fff {
+  background-image: url(/fon.png);
+  background-position-x: center;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.header {
+  height: 100px;
+  padding: 0 10px;
+  vertical-align: center;
+}
+
+.header [class^="col-lg"] {
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.header .logo {
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.header .logo .logo-black {
+  color: black;
+}
+
+.header .logo .logo-red {
+  color: red;
+}
+
+.header .glyphicon-earphone, .header .glyphicon-map-marker {
+  color: red;
+  font-size: 22pt;
+}
+
+.header .phone-num {
+  font-size: 12pt;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,81 @@
+@import "_fon-img";
+
+// body {
+// 	//background-image: url(/fon.png);
+// 	//background-position-x: 50%;
+// 	//background-size: 1366px;
+// 	//background: red;
+// 	//height: 100vh;
+// }
+.wrap {
+	// padding: 0 80px;
+
+}
+
+.header {
+	//padding: 40px;
+	height: 100px;
+	padding: 0 10px;
+	vertical-align: center;
+
+	[class^="col-lg"] {
+		top: 50%;
+		transform: translateY(-50%);
+	}
+
+	.logo {
+		font-size: 19px;
+		font-weight: bold;
+
+		.logo-black {
+			color: black;
+		}
+
+		.logo-red {
+			color: red;
+		}
+	}
+
+	// .phone {
+	// display: inline-block;
+	//  position: relative;
+	//  display: flex;
+	//  align-items: center;
+	//  justify-content: space-between;
+
+	// &::before {
+	// 	display: block;
+	// 	position: relative;
+	// 	float: left;
+	// 	// right: 50px;
+	// 	// top: 50px;
+
+	// 	content: "zb";
+	// 	font-size: 26pt;
+	// }
+
+	.glyphicon-earphone, .glyphicon-map-marker {
+		// display: inline;
+		// float: left;
+		color: red;
+		font-size: 22pt;
+	}
+
+	.phone-text {
+		// float: left;
+		// top: 50%;
+		// left: 50;
+		//transform: translateY(-50%);
+	}
+
+	.phone-num {
+		// display: block;
+		font-size: 12pt;
+	}
+
+
+	// }
+
+
+
+}
