@@ -6,7 +6,7 @@
   background-image: url(/src/img/fon.png);
   background-position-x: center;
   opacity: 1;
-  min-width: 1154px;
+  min-width: 1160px;
 }
 
 .fon .myCol {
@@ -79,6 +79,25 @@
 .header .phone-num {
   font-size: 16px;
   font-weight: bold;
+}
+
+.navbar {
+  margin: 0 7px;
+  padding: 0 25px 0 33px;
+  font-size: 16px;
+  opacity: 0.5;
+}
+
+.navbar .glyphicon {
+  font-size: 12px;
+}
+
+.navbar .navbar-right .glyphicon {
+  font-size: 22px;
+}
+
+.navbar .navbar-right a {
+  width: 49px;
 }
 
 .wrap {
