@@ -93,23 +93,27 @@
   width: 49px;
 }
 
-.slogan-1 {
+.panel-main {
+  height: 908px;
+}
+
+.panel-main .slogan-1 {
   padding-top: 148px;
 }
 
-.slogan-1 .text-1 {
+.panel-main .slogan-1 .text-1 {
   font-size: 40px;
   font-weight: bolder;
   line-height: 1.3;
   color: aqua;
 }
 
-.text-2 {
+.panel-main .text-2 {
   font-size: 16.1px;
   padding-top: 16px;
 }
 
-.h-centered {
+.panel-main .h-centered {
   display: inline-block;
   position: relative;
   left: 50%;
@@ -117,22 +121,22 @@
           transform: translateX(-50%);
 }
 
-.btn {
+.panel-main .btn {
   font-weight: lighter;
   width: 192px;
   height: 54px;
 }
 
-.btn-2 {
+.panel-main .btn-2 {
   background-color: black;
   color: white;
 }
 
-.btn-2:hover {
+.panel-main .btn-2:hover {
   background-color: darkgray;
 }
 
-.btns {
+.panel-main .btns {
   padding-top: 45px;
 }
 
