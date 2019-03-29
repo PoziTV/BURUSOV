@@ -17,20 +17,17 @@
 		padding-top: 16px;
 	}
 
-	.h-centered {
-		display: inline-block;
-		position: relative;
-		left: 50%;
-		transform: translateX(-50%);
-	}
-
 	.btn {
 		font-weight: lighter;
 		width: 192px;
 		height: 54px;
 	}
 
-	.btn-2 {
+	.btn-yes {
+		background-color: $color-red;
+	}
+
+	.btn-ask {
 		background-color: black;
 		color: white;
 

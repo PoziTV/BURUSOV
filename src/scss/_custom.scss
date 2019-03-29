@@ -1,0 +1,24 @@
+.h-centered {
+	display: inline-block;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.v-centered {
+	display: flex;
+	align-items: center;
+	// [class^="col-"] {
+	// 	top: 50%;
+	// 	transform: translateY(-50%);
+	// }
+}
+
+@font-face {
+	font-family: 'Myriad Pro';
+	src: url('/src/fonts/MyriadPro.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+$color-red: #e60000;

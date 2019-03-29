@@ -4,9 +4,10 @@
 	position: absolute;
 	background-image: url(/src/img/fon.png);
 	background-position-x: center;
-	opacity: 1;
+	opacity: 0.6;
 	padding: 0;
 	min-width: 1146px;
+	z-index: -500;
 
 	.myCol {
 		// visibility: hidden;

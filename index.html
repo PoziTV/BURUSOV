@@ -8,6 +8,7 @@
 	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 	<title>My Site</title>
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+	<link href="/src/fonts/MyriadPro.otf" rel="stylesheet">
 	<!-- Bootstrap -->
 	<link rel="stylesheet" href="/build/css/bootstrap-3.4.1-dist/css/bootstrap.min.css">
 	<link rel="stylesheet" href="/build/css//main.min.css">
@@ -52,10 +53,11 @@
 
 
 	<div class="wrap">
+
 		<section class="panel-main container">
 
 
-			<div class="header row  center-block">
+			<div class="header v-centered row  center-block">
 				<div class="col-lg-7">
 					<div class="logo">
 						<span class="logo-black">Web</span><span class="logo-red">Design</span>
@@ -92,11 +94,11 @@
 							<!-- <span class="glyphicon glyphicon-chevron-down"></span> -->
 						</a>
 					</li>
-					<li class="menu"><a>О нас</a></li>
-					<li class="menu"><a>Портфолиo</a></li>
-					<li class="menu"><a>Контакты</a></li>
-					<li class="menu"><a>Отзывы</a></li>
-					<li class="menu"><a>Новости</a></li>
+					<li class="menu"><a href="#about">О нас</a></li>
+					<li class="menu"><a href="#" href="#">Портфолиo</a></li>
+					<li class="menu"><a href="#">Контакты</a></li>
+					<li class="menu"><a href="#">Отзывы</a></li>
+					<li class="menu"><a href="#">Новости</a></li>
 				</ul>
 
 
@@ -124,10 +126,10 @@
 
 				<div class="row center-block btns">
 					<div class="col-lg-5 text-right">
-						<div class="btn btn-lg btn-danger">Оставить заявку</div>
+						<div class="btn btn-lg btn-yes">Оставить заявку</div>
 					</div>
 					<div class="col-lg-5">
-						<div class="btn btn-lg btn-2">Подробнее</div>
+						<div class="btn btn-lg btn-ask">Подробнее</div>
 					</div>
 				</div>
 			</div>
@@ -135,16 +137,80 @@
 
 		</section>
 
-		<section class="about">
+		<section class="about" id="about">
 
 			<div class="container">
 
-				<div class="row">
-
+				<div class="row center-block">
+					<div class="col-lg-24 about-header">
+						<div class="about-header-text">
+							О компании
+						</div>
+					</div>
 				</div>
 
-				<div class="row">
+				<div class="row center-block about-content">
+					<div class="col-lg-11 about-content-text">
+						<p>Высокий уровень вовлечения представителей целевой аудитории является четким доказательством
+							простого факта:<br>высокотехнологичная концепция общественного уклада не дает нам иного
+							выбора,
+							кроме определения поэтапного и последовательного развития общества. Предварительные выводы
+							неутешительны:<br>глубокий уровень погружения предполагает независимые способы реализации
+							прогресса профессионального сообщества.
+						</p>
+						<p>С учетом сложившейся международной обстановки, дальнейшее развитие различных форм
+							деятельности требует анализа соответствующих условий активизации.
+						</p>
+						<p>Высокий уровень вовлечения представителей целевой аудитории является четким доказательством
+							простого факта:<br>высокотехнологичная концепция общественного уклада не дает нам иного
+							выбора,
+							кроме определения поэтапного и последовательного развития общества. Предварительные выводы
+							неутешительны:<br>глубокий уровень погружения предполагает независимые способы реализации
+							прогресса профессионального сообщества.
+						</p>
+					</div>
+					<!-- FIXME переписать по возможности, правая колонка не укладывается в макет
+возможно, нужно использовать flex для обеих колонок -->
+					<div class="col-lg-13 about-content-digit text-center">
 
+
+						<div class="digit ">
+							<div class="digit-vol">3912</div>
+							<div class="digit-header">позиций</div>
+							<div class="digit-text">Имеется на Ваш выбор для создания сайта</div>
+						</div>
+
+						<div class="digit ">
+							<div class="digit-vol">5659</div>
+							<div class="digit-header">заказчиков</div>
+							<div class="digit-text">Обращаются к нам на протяжении нескольких лет</div>
+						</div>
+
+						<div class="digit ">
+							<div class="digit-vol">25</div>
+							<div class="digit-header">специалистов</div>
+							<div class="digit-text">Своего дела готовы ежедневно проконсультировать Вас</div>
+						</div>
+
+						<div class="digit ">
+							<div class="digit-vol">456</div>
+							<div class="digit-header">злементов</div>
+							<div class="digit-text">Имеется на в нашем портфолио</div>
+						</div>
+
+						<div class="digit ">
+							<div class="digit-vol">22</div>
+							<div class="digit-header">года</div>
+							<div class="digit-text">Мы работаем имеено для Вас</div>
+						</div>
+
+						<div class="digit ">
+							<div class="digit-vol">892</div>
+							<div class="digit-header">специалистов</div>
+							<div class="digit-text">Имеется на Ваш выбор для создания индивидуального сайта</div>
+						</div>
+
+					</div>
 				</div>
 			</div>
 
