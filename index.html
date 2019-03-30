@@ -54,8 +54,8 @@
 
 	<div class="wrap">
 
-		<section class="panel-main container">
 
+		<section class="panel-main container" id="main">
 
 			<div class="header v-centered row  center-block">
 				<div class="col-lg-7">
@@ -77,12 +77,13 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-1">
+				<div class="col-lg-4">
 					<span class="glyphicon glyphicon-map-marker"></span>
-				</div>
-				<div class="col-lg-3">
 					г.Екатеринбург,<br>ул. 8 Марта 22
 				</div>
+				<!-- <div class="col-lg-3">
+					
+				</div> -->
 			</div>
 
 
@@ -137,84 +138,131 @@
 
 		</section>
 
-		<section class="about" id="about">
+		<section class="panel-about container" id="about">
 
-			<div class="container">
-
-				<div class="row center-block">
-					<div class="col-lg-24 about-header">
-						<div class="about-header-text">
-							О компании
-						</div>
-					</div>
+			<div class="row about-header center-block">
+				<div class="col-lg-24 no-gap">
+					<span class="header-text">О компании</span>
 				</div>
+			</div>
 
-				<div class="row center-block about-content">
-					<div class="col-lg-11 about-content-text">
-						<p>Высокий уровень вовлечения представителей целевой аудитории является четким доказательством
-							простого факта:<br>высокотехнологичная концепция общественного уклада не дает нам иного
-							выбора,
-							кроме определения поэтапного и последовательного развития общества. Предварительные выводы
-							неутешительны:<br>глубокий уровень погружения предполагает независимые способы реализации
-							прогресса профессионального сообщества.
-						</p>
-						<p>С учетом сложившейся международной обстановки, дальнейшее развитие различных форм
-							деятельности требует анализа соответствующих условий активизации.
-						</p>
-						<p>Высокий уровень вовлечения представителей целевой аудитории является четким доказательством
-							простого факта:<br>высокотехнологичная концепция общественного уклада не дает нам иного
-							выбора,
-							кроме определения поэтапного и последовательного развития общества. Предварительные выводы
-							неутешительны:<br>глубокий уровень погружения предполагает независимые способы реализации
-							прогресса профессионального сообщества.
-						</p>
-					</div>
-					<!-- FIXME переписать по возможности, правая колонка не укладывается в макет
+			<div class="row center-block about-content">
+				<div class="col-lg-11 about-content-text">
+					<p>Высокий уровень вовлечения представителей целевой аудитории является четким доказательством
+						простого факта:<br>высокотехнологичная концепция общественного уклада не дает нам иного
+						выбора,
+						кроме определения поэтапного и последовательного развития общества. Предварительные выводы
+						неутешительны:<br>глубокий уровень погружения предполагает независимые способы реализации
+						прогресса профессионального сообщества.
+					</p>
+					<p>С учетом сложившейся международной обстановки, дальнейшее развитие различных форм
+						деятельности требует анализа соответствующих условий активизации.
+					</p>
+					<p>Высокий уровень вовлечения представителей целевой аудитории является четким доказательством
+						простого факта:<br>высокотехнологичная концепция общественного уклада не дает нам иного
+						выбора,
+						кроме определения поэтапного и последовательного развития общества. Предварительные выводы
+						неутешительны:<br>глубокий уровень погружения предполагает независимые способы реализации
+						прогресса профессионального сообщества.
+					</p>
+				</div>
+				<!-- FIXME переписать по возможности, правая колонка не укладывается в макет
 возможно, нужно использовать flex для обеих колонок -->
-					<div class="col-lg-13 about-content-digit text-center">
+				<div class="col-lg-13 about-content-digit text-center">
 
 
-						<div class="digit ">
-							<div class="digit-vol">3912</div>
-							<div class="digit-header">позиций</div>
-							<div class="digit-text">Имеется на Ваш выбор для создания сайта</div>
-						</div>
-
-						<div class="digit ">
-							<div class="digit-vol">5659</div>
-							<div class="digit-header">заказчиков</div>
-							<div class="digit-text">Обращаются к нам на протяжении нескольких лет</div>
-						</div>
-
-						<div class="digit ">
-							<div class="digit-vol">25</div>
-							<div class="digit-header">специалистов</div>
-							<div class="digit-text">Своего дела готовы ежедневно проконсультировать Вас</div>
-						</div>
-
-						<div class="digit ">
-							<div class="digit-vol">456</div>
-							<div class="digit-header">злементов</div>
-							<div class="digit-text">Имеется на в нашем портфолио</div>
-						</div>
-
-						<div class="digit ">
-							<div class="digit-vol">22</div>
-							<div class="digit-header">года</div>
-							<div class="digit-text">Мы работаем имеено для Вас</div>
-						</div>
-
-						<div class="digit ">
-							<div class="digit-vol">892</div>
-							<div class="digit-header">специалистов</div>
-							<div class="digit-text">Имеется на Ваш выбор для создания индивидуального сайта</div>
-						</div>
-
+					<div class="digit ">
+						<div class="digit-vol">3912</div>
+						<div class="digit-header">позиций</div>
+						<div class="digit-text">Имеется на Ваш выбор для создания сайта</div>
 					</div>
+
+					<div class="digit ">
+						<div class="digit-vol">5659</div>
+						<div class="digit-header">заказчиков</div>
+						<div class="digit-text">Обращаются к нам на протяжении нескольких лет</div>
+					</div>
+
+					<div class="digit ">
+						<div class="digit-vol">25</div>
+						<div class="digit-header">специалистов</div>
+						<div class="digit-text">Своего дела готовы ежедневно проконсультировать Вас</div>
+					</div>
+
+					<div class="digit ">
+						<div class="digit-vol">456</div>
+						<div class="digit-header">злементов</div>
+						<div class="digit-text">Имеется на в нашем портфолио</div>
+					</div>
+
+					<div class="digit ">
+						<div class="digit-vol">22</div>
+						<div class="digit-header">года</div>
+						<div class="digit-text">Мы работаем имеено для Вас</div>
+					</div>
+
+					<div class="digit ">
+						<div class="digit-vol">892</div>
+						<div class="digit-header">специалистов</div>
+						<div class="digit-text">Имеется на Ваш выбор для создания индивидуального сайта</div>
+					</div>
+
 				</div>
 			</div>
 
 		</section>
+
+
+		<section class="panel-services container" id="services">
+
+			<div class="row panel-header center-block">
+				<div class="col-lg-24 ">
+					<span class="header-text h-centered">Наши услуги</span>
+				</div>
+			</div>
+
+			<div class="row panel-content center-block">
+				<div class="col-lg-8 col-md-12 col-sm-12">
+					<div class="img-body h-centered  ">
+						<img class="img-responsive" src="/src/img/services/01-architecture-768432_1920.png" alt="01">
+					</div>
+					<div class="img-footer h-centered">Консультация</div>
+				</div>
+				<div class="col-lg-8 col-md-12 col-sm-12">
+					<div class="img-body h-centered">
+						<img class="img-responsive" src="/src/img/services/02-architecture-2256489_1920.png" alt="02">
+					</div>
+					<div class="img-footer h-centered">Создания страницы</div>
+				</div>
+				<div class="col-lg-8 col-md-12 col-sm-12">
+					<div class="img-body h-centered">
+						<img class="img-responsive" src="/src/img/services/06-urban-205986_1920 копия.png" alt="03">
+					</div>
+					<div class="img-footer h-centered">Подпись документов</div>
+				</div>
+				<div class="col-lg-8 col-md-12 col-sm-12">
+					<div class="img-body h-centered">
+						<img class="img-responsive" src="/src/img/services/04-architecture-1727807_1920.png" alt="04">
+					</div>
+					<div class="img-footer h-centered">Консультация</div>
+				</div>
+				<div class="col-lg-8 col-md-12 col-sm-12">
+					<div class="img-body h-centered">
+						<img class="img-responsive" src="/src/img/services/05-berlin-1266337_1920.png" alt="05">
+					</div>
+					<div class="img-footer h-centered">Создания страницы</div>
+				</div>
+				<div class="col-lg-8 col-md-12 col-sm-12">
+					<div class="img-body h-centered">
+						<img class="img-responsive" src="/src/img/services/06-urban-205986_1920 копия.png" alt="06">
+					</div>
+					<div class="img-footer h-centered">Подпись документов</div>
+				</div>
+			</div>
+
+		</section>
+
+
 	</div>
 
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

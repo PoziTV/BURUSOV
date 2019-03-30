@@ -1,13 +1,20 @@
-.about {
+.panel-about {
+	min-height: 605px;
+
 	.about-header {
 		font-size: 30px;
-		font-weight: bolder;
-		padding: 73px 5px 15px 5px;
-		// padding-top: 74px;
+		font-weight: bold;
+		padding: 73px 0px 15px 0px;
 
-		.about-header-text {
+		// padding-top: 74px;
+		.no-gap {
+			padding: 0;
+		}
+
+		.header-text {
 			position: relative;
 
+			margin: 0 5px;
 			&::before {
 				position: absolute;
 				top: 55px;
@@ -41,11 +48,6 @@
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: space-around;
-
-		&:nth-child(1) .digit-text {
-			width: 130px;
-		}
-
 
 		.digit {
 			&:nth-child(1) .digit-text {

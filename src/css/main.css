@@ -94,9 +94,6 @@
 
 .header {
   height: 96px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -162,17 +159,26 @@
   width: 49px;
 }
 
-.about .about-header {
+.panel-about {
+  min-height: 605px;
+}
+
+.panel-about .about-header {
   font-size: 30px;
-  font-weight: bolder;
-  padding: 73px 5px 15px 5px;
+  font-weight: bold;
+  padding: 73px 0px 15px 0px;
 }
 
-.about .about-header .about-header-text {
+.panel-about .about-header .no-gap {
+  padding: 0;
+}
+
+.panel-about .about-header .header-text {
   position: relative;
+  margin: 0 5px;
 }
 
-.about .about-header .about-header-text::before {
+.panel-about .about-header .header-text::before {
   position: absolute;
   top: 55px;
   left: 1px;
@@ -182,7 +188,7 @@
   content: "";
 }
 
-.about .about-content-text {
+.panel-about .about-content-text {
   font-family: "Myriad Pro";
   letter-spacing: 0.38px;
   font-size: 15px;
@@ -191,11 +197,11 @@
   padding-top: 10px;
 }
 
-.about .about-content-text p {
+.panel-about .about-content-text p {
   margin: 18px 0;
 }
 
-.about .about-content-digit {
+.panel-about .about-content-digit {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -205,59 +211,96 @@
       justify-content: space-around;
 }
 
-.about .about-content-digit:nth-child(1) .digit-text {
-  width: 130px;
-}
-
-.about .about-content-digit .digit {
+.panel-about .about-content-digit .digit {
   width: 200px;
   line-height: 1;
   margin-bottom: 13px;
 }
 
-.about .about-content-digit .digit:nth-child(1) .digit-text {
+.panel-about .about-content-digit .digit:nth-child(1) .digit-text {
   width: 140px;
 }
 
-.about .about-content-digit .digit:nth-child(2) .digit-text {
+.panel-about .about-content-digit .digit:nth-child(2) .digit-text {
   width: 140px;
 }
 
-.about .about-content-digit .digit:nth-child(3) .digit-text {
+.panel-about .about-content-digit .digit:nth-child(3) .digit-text {
   width: 180px;
 }
 
-.about .about-content-digit .digit:nth-child(4) .digit-text {
+.panel-about .about-content-digit .digit:nth-child(4) .digit-text {
   width: 140px;
 }
 
-.about .about-content-digit .digit:nth-child(5) .digit-text {
+.panel-about .about-content-digit .digit:nth-child(5) .digit-text {
   width: 150px;
 }
 
-.about .about-content-digit .digit:nth-child(6) .digit-text {
+.panel-about .about-content-digit .digit:nth-child(6) .digit-text {
   width: 190px;
 }
 
-.about .about-content-digit .digit .digit-vol {
+.panel-about .about-content-digit .digit .digit-vol {
   padding-top: 25px;
   font-size: 71.95px;
   color: #e60000;
   font-weight: bold;
 }
 
-.about .about-content-digit .digit .digit-header {
+.panel-about .about-content-digit .digit .digit-header {
   padding-top: 5px;
   font-size: 23.98px;
   font-weight: bold;
 }
 
-.about .about-content-digit .digit .digit-text {
+.panel-about .about-content-digit .digit .digit-text {
   padding-top: 8px;
   font-family: "Myriad Pro";
   font-size: 15px;
   line-height: 1.2;
   margin: 0 auto;
+}
+
+.panel-services {
+  min-height: 1003px;
+}
+
+.panel-services .panel-header {
+  padding: 61px 5px 15px 5px;
+}
+
+.panel-services .panel-header .header-text {
+  position: relative;
+  display: inline-block;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.panel-services .panel-header .header-text::before {
+  position: absolute;
+  top: 55px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  height: 2px;
+  width: 81px;
+  background-color: #00ff15;
+  content: "";
+}
+
+.panel-services .img-body {
+  padding-top: 44px;
+  padding-bottom: 13px;
+  display: inline-block;
+  height: auto;
+  max-width: 100%;
+}
+
+.panel-services .img-footer {
+  font-size: 18px;
+  padding-bottom: 18px;
+  letter-spacing: 0.45px;
 }
 
 .wrap {
