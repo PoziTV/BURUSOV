@@ -8,7 +8,7 @@
 
 		.header-text {
 			position: relative;
-			display: inline-block;
+			// display: inline-block;
 			font-size: 30px;
 			font-weight: bolder;
 
@@ -29,7 +29,7 @@
 	.img-body {
 		padding-top: 44px;
 		padding-bottom: 8px;
-		display: inline-block;
+		display: block;
 		height: auto;
 		max-width: 100%;
 	}
