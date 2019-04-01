@@ -14,11 +14,22 @@
 	// }
 }
 
+.h-right{
+	display: inline-block;
+	position: relative;
+	left: 100%;
+	transform: translateX(-100%);
+}
 @font-face {
 	font-family: 'Myriad Pro';
 	src: url('/src/fonts/MyriadPro.otf');
 	font-weight: normal;
 	font-style: normal;
+}
+
+.no-out-gap{
+	margin-left: 0;
+	margin-right: 0;
 }
 
 $color-red: #e60000;

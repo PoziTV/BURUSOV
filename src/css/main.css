@@ -15,11 +15,24 @@
           align-items: center;
 }
 
+.h-right {
+  display: inline-block;
+  position: relative;
+  left: 100%;
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+}
+
 @font-face {
   font-family: 'Myriad Pro';
   src: url("/src/fonts/MyriadPro.otf");
   font-weight: normal;
   font-style: normal;
+}
+
+.no-out-gap {
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .fon {
@@ -403,12 +416,21 @@
   line-height: 1.32;
 }
 
-.panel-advantage .img-body {
-  position: relative;
-  display: inline-block;
+.panel-advantage .advantage-stamps {
+  margin-top: 66px;
 }
 
-.panel-advantage .img-body .sign {
+.panel-advantage .advantage-stamps .stamp {
+  display: inline-block;
+  position: relative;
+  width: 235px;
+}
+
+.panel-advantage .advantage-stamps .stamp .img-body {
+  background-color: rgba(0, 50, 0, 0.3);
+}
+
+.panel-advantage .advantage-stamps .stamp .img-body .sign {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -416,39 +438,21 @@
           transform: translate(-50%, -50%);
 }
 
-.panel-advantage .img-footer {
+.panel-advantage .advantage-stamps .stamp .img-footer {
+  margin-top: 16px;
   position: relative;
-  max-width: 400px;
 }
 
-.panel-advantage .img-footer .img-footer-spec {
+.panel-advantage .advantage-stamps .stamp .img-footer .img-footer-header {
   font-size: 16px;
-  padding-bottom: 3px;
-  letter-spacing: 0.45px;
+  font-weight: bold;
+  line-height: 1.22;
 }
 
-.panel-advantage .img-footer .img-footer-name {
-  font-size: 18px;
-  font-weight: 500;
-  padding-bottom: 35px;
-  letter-spacing: 0.45px;
-}
-
-.panel-advantage .img-footer .img-footer-name::before {
-  position: absolute;
-  top: 67px;
-  left: 1px;
-  height: 2px;
-  width: 94px;
-  background-color: #e60000;
-  content: "";
-}
-
-.panel-advantage .img-footer .img-footer-text {
+.panel-advantage .advantage-stamps .stamp .img-footer .img-footer-text {
+  margin-top: 10px;
   font-size: 14px;
-  padding-bottom: 18px;
-  line-height: 19px;
-  padding-left: 2px;
+  line-height: 1.32;
 }
 
 .wrap {
