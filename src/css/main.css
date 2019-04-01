@@ -35,6 +35,11 @@
   margin-right: 0;
 }
 
+no-in-gap {
+  padding-left: 0;
+  padding-right: 0;
+}
+
 .fon {
   left: 50%;
   -webkit-transform: translateX(-50%);
@@ -453,6 +458,71 @@
   margin-top: 10px;
   font-size: 14px;
   line-height: 1.32;
+}
+
+.panel-portfolio {
+  min-height: 1207px;
+}
+
+.panel-portfolio .panel-header {
+  margin-top: 80px;
+}
+
+.panel-portfolio .panel-header .header-text {
+  position: relative;
+  display: inline-block;
+  font-size: 30px;
+  font-weight: bolder;
+  line-height: 1.25;
+}
+
+.panel-portfolio .panel-header .header-text::before {
+  position: absolute;
+  top: 55px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  height: 2px;
+  width: 81px;
+  background-color: #00ff15;
+  content: "";
+}
+
+.panel-portfolio .panel-content {
+  margin-top: 45px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.panel-portfolio .panel-content .img-body {
+  display: inline-block;
+  height: auto;
+  max-width: 100%;
+}
+
+.panel-portfolio .panel-footer-text {
+  max-width: 900px;
+  font-size: 14px;
+  letter-spacing: 0.45px;
+  font-weight: lighter;
+}
+
+.panel-portfolio .footer-btn {
+  margin-top: 30px;
+}
+
+.panel-portfolio .footer-btn .footer-btn-col {
+  padding: 0 3px;
+}
+
+.panel-portfolio .footer-btn .footer-btn-col .btn-view-foto {
+  background-color: #e60000;
+  padding-left: 42px;
+  padding-right: 25px;
+}
+
+.panel-portfolio .footer-btn .footer-btn-col .btn-view-foto .btn-text {
+  letter-spacing: 0.3px;
 }
 
 .wrap {
