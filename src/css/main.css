@@ -54,7 +54,7 @@ no-in-gap {
 }
 
 .fon .myCol {
-  height: 10000px;
+  height: 20000px;
   text-align: center;
   color: red;
 }
@@ -525,8 +525,38 @@ no-in-gap {
   letter-spacing: 0.3px;
 }
 
+.panel-feedback {
+  min-height: 1126px;
+}
+
+.panel-feedback .panel-header {
+  margin-top: 51px;
+}
+
+.panel-feedback .panel-header .header-text {
+  position: relative;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.panel-feedback .panel-header .header-text::before {
+  position: absolute;
+  top: 55px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  height: 2px;
+  width: 81px;
+  background-color: #e60000;
+  content: "";
+}
+
+.panel-feedback .po {
+  display: inline;
+}
+
 .wrap {
-  height: 10000px;
+  height: 20000px;
   font-family: "Open Sans";
 }
 /*# sourceMappingURL=main.css.map */

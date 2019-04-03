@@ -1,0 +1,32 @@
+.panel-feedback {
+	min-height: 1126px;
+	.panel-header {
+
+		margin-top: 51px;
+		// padding-top: 74px;
+
+		.header-text {
+			position: relative;
+			// display: inline-block;
+			font-size: 30px;
+			font-weight: bold;
+
+			&::before {
+				position: absolute;
+				top: 55px;
+				left: 50%;
+				transform: translateX(-50%);
+				// right: 100%;
+				height: 2px;
+				width: 81px;
+				background-color: $color-red;
+				content: "";
+			}
+		}
+	}
+
+	.po{
+		// position: relative;
+		display: inline;
+	}
+}

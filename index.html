@@ -398,7 +398,7 @@
 
 		<section class="panel-portfolio container" id="portfolio">
 
-			<div class="row panel-header center-block">
+			<div class="row panel-header no-out-gap">
 				<div class="col-xs-24 ">
 					<span class="header-text h-centered">Портфолио</span>
 				</div>
@@ -468,20 +468,44 @@
 				<div class="col-lg-9"></div>
 				<div class="col-lg-6 footer-btn-col">
 					<div class="btn btn-lg btn-default btn-view-foto">
-						<span class="btn-text">Посмотреть все фото</span>	
+						<span class="btn-text">Посмотреть все фото</span>
 					</div>
 				</div>
 			</div>
 
 		</section>
 
-		<section class="panel-feedback" id="feedback">
+		<section class="panel-feedback container" id="feedback">
 
+			<div class="row panel-header no-out-gap">
+				<span class="header-text h-centered">Отзывы</span>
+			</div>
+
+			<div class="row panel-content no-out-gap">
+
+				<div class="col-lg-4">
+					<img class="img-responsive img-circle h-centered"
+						src="src/img/feedback/01-elegant-and-intelligent.png" alt="клиент-1">
+				</div>
+				<div class="col-lg-20 ">
+
+						<!-- <div class="mm"> -->
+							<div class="po  "  data-placement="right"  data-toggle="popover" data-content="Высокий уровень вовлечения представителей целевой
+							аудитории является четким доказательством простого факта: высокотехнологичная концепция
+							общественного уклада не дает нам иного выбора, кроме определения поэтапного и
+							последовательного... развития...Предварительные выводы неутешительны: глубокий уровень
+							погружения предполагает независимые способы реализации прогресса профессионального сообщества. С
+							учетом сложившейся международной обстановки, дальнейшее развитие различных форм деятельности
+							требует ующих условий активизации" title="1111">
+							<span  class="v-centered po  ">gg</span></div>
+						<!-- </div> -->
+					</div>
+
+			</div>
 
 		</section>
 
 	</div>
-
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<script src="https://code.jquery.com/jquery-1.12.4.min.js"
 		integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous">
@@ -489,6 +513,12 @@
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
 		integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous">
+	</script>
+	<script>
+		// $('.popover').popover('show');
+		$(document).ready(function () {
+			$('[data-toggle="popover"]').popover('show');
+		});
 	</script>
 </body>
 
