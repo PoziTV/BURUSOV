@@ -1,5 +1,6 @@
 .panel-feedback {
 	min-height: 1126px;
+
 	.panel-header {
 
 		margin-top: 51px;
@@ -25,8 +26,15 @@
 		}
 	}
 
-	.po{
-		// position: relative;
-		display: inline;
+	.popover-like {
+		margin-left: 10%; //FIXME организовать отступ для стрелочки
+		max-height: 200px;
+		overflow: hidden; //FIXME продумать возможность читать отзыв полностью, возможно через гармошку
+	}
+
+	.v-cent {
+		position: relative;
+		top: 50% !important;
+		transform: translateY(-50%);
 	}
 }

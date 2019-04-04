@@ -551,8 +551,17 @@ no-in-gap {
   content: "";
 }
 
-.panel-feedback .po {
-  display: inline;
+.panel-feedback .popover-like {
+  margin-left: 10%;
+  max-height: 200px;
+  overflow: hidden;
+}
+
+.panel-feedback .v-cent {
+  position: relative;
+  top: 50% !important;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
 }
 
 .wrap {
