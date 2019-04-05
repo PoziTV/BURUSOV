@@ -1,4 +1,4 @@
-.fon {z-index: -1000;
+.fon {
 	left: 50%;
 	transform: translateX(-50%);
 	position: absolute;
@@ -11,23 +11,16 @@
 
 	.myCol {
 		// visibility: hidden;
-		height: 10000px;
+		height: 20000px;
 		text-align: center;
 		color: red;
 
 		&:nth-child(2n) {
-			background: rgba($color: #bebebe, $alpha: 0);
+			background: rgba($color: #bebebe, $alpha: 0.2);
 		}
 
 		&:nth-child(2n+1) {
-			background: rgba($color: #0036a3, $alpha:0);
+			background: rgba($color: #0036a3, $alpha:0.1);
 		}
 	}
-}
-
-.fon_i_setka{
-	z-index: -1000;
-}
-.about{
-	z-index: 100;
 }

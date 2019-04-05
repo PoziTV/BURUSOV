@@ -54,7 +54,7 @@ no-in-gap {
 }
 
 .fon .myCol {
-  height: 10000px;
+  height: 20000px;
   text-align: center;
   color: red;
 }
@@ -525,8 +525,83 @@ no-in-gap {
   letter-spacing: 0.3px;
 }
 
+.panel-feedback {
+  min-height: 1126px;
+}
+
+.panel-feedback .panel-header {
+  margin-top: 42px;
+}
+
+.panel-feedback .panel-header .header-text {
+  position: relative;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.panel-feedback .panel-header .header-text::before {
+  position: absolute;
+  top: 55px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  height: 2px;
+  width: 81px;
+  background-color: #e60000;
+  content: "";
+}
+
+.panel-feedback .panel-content {
+  margin-top: 90px;
+}
+
+.panel-feedback .panel-content .arrow-up {
+  height: 150px;
+}
+
+.panel-feedback .panel-content .popover-like {
+  padding: 8px 0;
+}
+
+.panel-feedback .panel-content .popover-like .item-content {
+  max-height: 191px;
+  overflow: hidden;
+  position: relative;
+  margin-left: 30px;
+  padding-left: 30px;
+}
+
+.panel-feedback .panel-content .popover-like .item-content .item-header-name {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.panel-feedback .panel-content .popover-like .item-content .item-header-date {
+  font-size: 14px;
+  color: red;
+}
+
+.panel-feedback .panel-content .popover-like .item-content .smoked-text {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  height: 191px;
+  background: -webkit-gradient(linear, left bottom, left top, from(grey), to(rgba(255, 255, 255, 0)));
+  background: linear-gradient(to top, grey, rgba(255, 255, 255, 0));
+  z-index: 100;
+  width: 100%;
+}
+
+.panel-feedback .panel-content .v-cent {
+  position: relative;
+  top: 50% !important;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
 .wrap {
-  height: 10000px;
+  height: 20000px;
   font-family: "Open Sans";
 }
 /*# sourceMappingURL=main.css.map */
