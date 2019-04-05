@@ -3,7 +3,7 @@
 
 	.panel-header {
 
-		margin-top: 51px;
+		margin-top: 42px;
 		// padding-top: 74px;
 
 		.header-text {
@@ -26,15 +26,60 @@
 		}
 	}
 
-	.popover-like {
-		margin-left: 10%; //FIXME организовать отступ для стрелочки
-		max-height: 200px;
-		overflow: hidden; //FIXME продумать возможность читать отзыв полностью, возможно через гармошку
-	}
+	.panel-content {
+		margin-top: 90px;
 
-	.v-cent {
-		position: relative;
-		top: 50% !important;
-		transform: translateY(-50%);
+		.arrow-up {
+			// min-height: 150px;
+			height: 150px;
+			// padding: 150px;
+			// display: block;
+			// margin: 150px;
+		}
+
+		.popover-like {
+
+			padding: 8px 0;
+
+			// margin-left: 10%; //FIXME организовать отступ для стрелочки
+
+			//FIXME продумать возможность читать отзыв полностью, возможно через гармошку
+
+			.item-content {
+
+				.item-header-name {
+					font-size: 17px;
+					font-weight: bold;
+				}
+
+				.item-header-date {
+					font-size: 14px;
+					color: red;
+				}
+
+				max-height: 191px;
+				overflow: hidden;
+				position: relative;
+				margin-left: 30px;
+				padding-left: 30px;
+
+				.smoked-text {
+					position: absolute;
+					display: block;
+					top: 0;
+					left: 0;
+					height: 191px;
+					background: linear-gradient(to top, grey, rgba(255, 255, 255, 0));
+					z-index: 100;
+					width: 100%;
+				}
+			}
+		}
+
+		.v-cent {
+			position: relative;
+			top: 50% !important;
+			transform: translateY(-50%);
+		}
 	}
 }
