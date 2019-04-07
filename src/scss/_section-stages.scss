@@ -59,9 +59,29 @@
 		.stage-left {
 			padding-right: 40px;
 			border-right: 1px dashed red;
-			.stage-number{
-				
+			text-align: right;
+			display: inline-block;
+			position: relative;
+			left: 100%;
+			transform: translateX(-100%);
+
+			@media (max-width: 767px) {
+				max-width: 360px;
+				text-align: left;
+				padding-right: 0px;
+				margin-right: auto;
+				left: 50%;
+				transform: translateX(-50%);
+				border-right: 0;
+				border-left: 2px dashed red;
+				margin-left: 20px;
+				margin-right: 20px;
+				padding-left: 20px;
+
 			}
+
+			.stage-number {}
+
 			// &::after{
 			// 	position: absolute;
 			// 	top: 0;
@@ -73,6 +93,20 @@
 		.stage-right {
 			padding-left: 40px;
 			border-left: 1px dashed red;
+			@media (max-width: 767px) {
+				max-width: 360px;
+				text-align: left;
+				padding-right: 0px;
+				margin-right: auto;
+				left: 50%;
+				transform: translateX(-50%);
+				border-right: 0;
+				border-left: 2px dashed red;
+				margin-left: 20px;
+				margin-right: 20px;
+				padding-left: 20px;
+
+			}
 		}
 
 		.noborder {
