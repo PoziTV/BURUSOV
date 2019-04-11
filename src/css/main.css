@@ -40,6 +40,13 @@
   padding-right: 0;
 }
 
+.no-gap {
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
 .noborder {
   border: 0;
 }
@@ -690,9 +697,9 @@
 @media (max-width: 767px) {
   .stages .section-content .stage-left {
     text-align: left;
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-            transform: translateX(-50%);
+    left: 0%;
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
   }
 }
 

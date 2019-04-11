@@ -25,23 +25,14 @@
 		margin-top: 65px;
 		position: relative;
 
-		// .stage-number {
-		// 	position: relative;
-		// 	left: 50%;
-		// 	// transform: translateX()
-		// }
-
 		.row {
-			// position: relative;
 			display: flex;
-			// align-items: stretch;
 		}
 
 		.stage {
 			max-width: 360px;
 			padding-bottom: 35px;
 			position: relative;
-
 
 			.stage-header {
 				font-size: 18px;
@@ -51,25 +42,10 @@
 			.stage-content {
 				margin-top: 10px;
 				line-height: 1.28;
-
-
 			}
 		}
 
 		.stage-number-container {
-			// min-width: $stages-section-number-radius*2;
-			// display: flex;
-			// justify-content: center;
-			// box-sizing: border-box;
-			// display: table;
-			// display: flex;
-			// display: cell;
-			// overflow: hidden;
-
-			// position: absolute;
-			// top: 0;
-			// bottom: 0;
-			// height: 100%;
 			.stage-number {
 				height: $stages-section-number-radius;
 				width: $stages-section-number-radius;
@@ -112,8 +88,8 @@
 				text-align: left;
 				// padding-right: 0px;
 				// margin-right: auto;
-				left: 50%;
-				transform: translateX(-50%);
+				left: 0%;
+				transform: translateX(0%);
 				// border-right: 0;
 				// border-left: 2px dashed red;
 				// margin-left: 20px;
