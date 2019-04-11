@@ -633,7 +633,9 @@
 }
 
 .stages .section-content .row {
-  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .stages .section-content .stage {
@@ -650,6 +652,31 @@
 .stages .section-content .stage .stage-content {
   margin-top: 10px;
   line-height: 1.28;
+}
+
+.stages .section-content .stage-number-container .stage-number {
+  height: 33px;
+  width: 33px;
+  background: #e60000;
+  border-radius: 50%;
+}
+
+.stages .section-content .stage-number-container .stage-number .value {
+  color: white;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.stages .section-content .stage-number-container .stage-line {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  border: 1px dashed #e60000;
+  z-index: -1;
 }
 
 .stages .section-content .stage-left {
