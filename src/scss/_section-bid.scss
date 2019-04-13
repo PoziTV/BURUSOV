@@ -1,0 +1,81 @@
+.bid {
+	min-height: 632px;
+
+	.section-header {
+		margin-top: 72px;
+		font-size: 30px;
+		font-weight: bold;
+		position: relative;
+
+		&::before {
+			position: absolute;
+			top: 55px;
+			left: 50%;
+			transform: translateX(-50%);
+			// right: 100%;
+			height: 2px;
+			width: 81px;
+			background-color: $color-red;
+			content: "";
+		}
+	}
+
+	.section-content {
+		.weconnect {
+			margin-top: 33px;
+		}
+
+		.inputs {
+			margin-top: 20px;
+
+			.text-inputs {
+				input {
+					margin-top: 29px;
+					height: 47px;
+				}
+			}
+
+			.agree {
+				margin-top: 17px;
+
+				label {
+
+					padding-left: 0;
+					
+
+					.agree-checkbox {
+						width: 15px;
+						height: 14px;
+						display: inline-block;
+						background: url(/src/icons/checkbox-unchecked.png) no-repeat;
+
+					}
+
+					input[type='checkbox'] {
+
+						display: none;
+						// margin-right: 7px;
+
+						&:checked+.agree-checkbox {
+							// width: 15px;
+							height: 15px;
+							// display: inline-block;
+							background: url(/src/icons/checkbox-checked-2.png) no-repeat;
+						}
+					}
+				}
+
+				.agree-text {
+					font-size: 14px;
+					font-weight: normal;
+					margin-left: 14px;
+					line-height: 0.8;
+					// margin-top: -10px;
+				}
+
+
+
+			}
+		}
+	}
+}

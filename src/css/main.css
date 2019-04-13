@@ -703,6 +703,73 @@
   }
 }
 
+.bid {
+  min-height: 632px;
+}
+
+.bid .section-header {
+  margin-top: 72px;
+  font-size: 30px;
+  font-weight: bold;
+  position: relative;
+}
+
+.bid .section-header::before {
+  position: absolute;
+  top: 55px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  height: 2px;
+  width: 81px;
+  background-color: #e60000;
+  content: "";
+}
+
+.bid .section-content .weconnect {
+  margin-top: 33px;
+}
+
+.bid .section-content .inputs {
+  margin-top: 20px;
+}
+
+.bid .section-content .inputs .text-inputs input {
+  margin-top: 29px;
+  height: 47px;
+}
+
+.bid .section-content .inputs .agree {
+  margin-top: 17px;
+}
+
+.bid .section-content .inputs .agree label {
+  padding-left: 0;
+}
+
+.bid .section-content .inputs .agree label .agree-checkbox {
+  width: 15px;
+  height: 14px;
+  display: inline-block;
+  background: url(/src/icons/checkbox-unchecked.png) no-repeat;
+}
+
+.bid .section-content .inputs .agree label input[type='checkbox'] {
+  display: none;
+}
+
+.bid .section-content .inputs .agree label input[type='checkbox']:checked + .agree-checkbox {
+  height: 15px;
+  background: url(/src/icons/checkbox-checked-2.png) no-repeat;
+}
+
+.bid .section-content .inputs .agree .agree-text {
+  font-size: 14px;
+  font-weight: normal;
+  margin-left: 14px;
+  line-height: 0.8;
+}
+
 .wrap {
   height: 20000px;
   font-family: "Open Sans";
