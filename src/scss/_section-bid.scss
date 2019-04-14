@@ -29,19 +29,36 @@
 			margin-top: 20px;
 
 			.text-inputs {
-				input {
+				padding-left: 8%;
+				padding-right: 6.3%;
+				// margin-top: 29px;
+
+				.input-group {
+					// padding-top: 129px;
+					// height: 47px;
 					margin-top: 29px;
-					height: 47px;
+					input{
+						font-size: 14px;
+						border-right: none;
+					}
+					span{
+						background: white;
+						border-left: none;
+					}
+
 				}
 			}
 
 			.agree {
 				margin-top: 17px;
+				padding-left: 8%;
+				// padding-right: 6.3%;
 
 				label {
-
+					position: relative;
 					padding-left: 0;
-					
+					// max-height: 18px;
+					width: 100%;
 
 					.agree-checkbox {
 						width: 15px;
@@ -66,15 +83,40 @@
 				}
 
 				.agree-text {
+					position: absolute;
+					top: -3px;
+					left: 32px;
 					font-size: 14px;
 					font-weight: normal;
-					margin-left: 14px;
-					line-height: 0.8;
+					word-wrap: break-word;
+					// margin-left: 14px;
+					// line-height: 0.8;
+					// padding-bottom: 5px;
+					display: inline-block;
+
 					// margin-top: -10px;
 				}
+			}
 
 
+		}
 
+		.bid-button-module {
+			margin-top: 28px;
+
+			.bid-btn {
+
+				padding-left: 10%;
+				padding-right: 8.8%;
+
+				button {
+					// padding-left: 68px;
+
+					// margin-right: 125px;
+					// height: 47px;
+					font-size: 16px;
+					width: 100%;
+				}
 			}
 		}
 	}

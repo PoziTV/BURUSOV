@@ -56,7 +56,7 @@
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
   position: absolute;
-  background-image: url(/src/img/fon.png);
+  background: url(/src/img/fon.png) no-repeat;
   background-position-x: center;
   opacity: 0.6;
   padding: 0;
@@ -65,7 +65,7 @@
 }
 
 .fon .myCol {
-  height: 20000px;
+  height: 10000px;
   text-align: center;
   color: red;
 }
@@ -734,17 +734,34 @@
   margin-top: 20px;
 }
 
-.bid .section-content .inputs .text-inputs input {
+.bid .section-content .inputs .text-inputs {
+  padding-left: 8%;
+  padding-right: 6.3%;
+}
+
+.bid .section-content .inputs .text-inputs .input-group {
   margin-top: 29px;
-  height: 47px;
+}
+
+.bid .section-content .inputs .text-inputs .input-group input {
+  font-size: 14px;
+  border-right: none;
+}
+
+.bid .section-content .inputs .text-inputs .input-group span {
+  background: white;
+  border-left: none;
 }
 
 .bid .section-content .inputs .agree {
   margin-top: 17px;
+  padding-left: 8%;
 }
 
 .bid .section-content .inputs .agree label {
+  position: relative;
   padding-left: 0;
+  width: 100%;
 }
 
 .bid .section-content .inputs .agree label .agree-checkbox {
@@ -764,14 +781,31 @@
 }
 
 .bid .section-content .inputs .agree .agree-text {
+  position: absolute;
+  top: -3px;
+  left: 32px;
   font-size: 14px;
   font-weight: normal;
-  margin-left: 14px;
-  line-height: 0.8;
+  word-wrap: break-word;
+  display: inline-block;
+}
+
+.bid .section-content .bid-button-module {
+  margin-top: 28px;
+}
+
+.bid .section-content .bid-button-module .bid-btn {
+  padding-left: 10%;
+  padding-right: 8.8%;
+}
+
+.bid .section-content .bid-button-module .bid-btn button {
+  font-size: 16px;
+  width: 100%;
 }
 
 .wrap {
-  height: 20000px;
+  height: 10000px;
   font-family: "Open Sans";
 }
 /*# sourceMappingURL=main.css.map */
