@@ -727,7 +727,14 @@
 }
 
 .bid .section-content .weconnect {
+  position: relative;
   margin-top: 33px;
+  letter-spacing: 0.9px;
+}
+
+.bid .section-content .weconnect div {
+  position: relative;
+  left: 5.5px;
 }
 
 .bid .section-content .inputs {
@@ -751,11 +758,13 @@
 .bid .section-content .inputs .text-inputs .input-group span {
   background: white;
   border-left: none;
+  min-width: 49px;
 }
 
 .bid .section-content .inputs .agree {
   margin-top: 17px;
   padding-left: 8%;
+  padding-right: 6.3%;
 }
 
 .bid .section-content .inputs .agree label {
@@ -802,6 +811,10 @@
 .bid .section-content .bid-button-module .bid-btn button {
   font-size: 16px;
   width: 100%;
+}
+
+.news {
+  min-height: 565px;
 }
 
 .wrap {

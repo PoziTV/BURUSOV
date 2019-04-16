@@ -21,8 +21,17 @@
 	}
 
 	.section-content {
+
+		// position: relative;
 		.weconnect {
+			position: relative;
 			margin-top: 33px;
+			letter-spacing: 0.9px;
+
+			div {
+				position: relative;
+				left: 5.5px;
+			}
 		}
 
 		.inputs {
@@ -37,13 +46,16 @@
 					// padding-top: 129px;
 					// height: 47px;
 					margin-top: 29px;
-					input{
+
+					input {
 						font-size: 14px;
 						border-right: none;
 					}
-					span{
+
+					span {
 						background: white;
 						border-left: none;
+						min-width: 49px;
 					}
 
 				}
@@ -52,12 +64,11 @@
 			.agree {
 				margin-top: 17px;
 				padding-left: 8%;
-				// padding-right: 6.3%;
+				padding-right: 6.3%;
 
 				label {
 					position: relative;
 					padding-left: 0;
-					// max-height: 18px;
 					width: 100%;
 
 					.agree-checkbox {
@@ -69,14 +80,10 @@
 					}
 
 					input[type='checkbox'] {
-
 						display: none;
-						// margin-right: 7px;
 
 						&:checked+.agree-checkbox {
-							// width: 15px;
 							height: 15px;
-							// display: inline-block;
 							background: url(/src/icons/checkbox-checked-2.png) no-repeat;
 						}
 					}
@@ -89,12 +96,7 @@
 					font-size: 14px;
 					font-weight: normal;
 					word-wrap: break-word;
-					// margin-left: 14px;
-					// line-height: 0.8;
-					// padding-bottom: 5px;
 					display: inline-block;
-
-					// margin-top: -10px;
 				}
 			}
 
@@ -110,10 +112,6 @@
 				padding-right: 8.8%;
 
 				button {
-					// padding-left: 68px;
-
-					// margin-right: 125px;
-					// height: 47px;
 					font-size: 16px;
 					width: 100%;
 				}
