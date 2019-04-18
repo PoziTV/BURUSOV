@@ -1,0 +1,64 @@
+.section-map-contacts {
+	min-height: 600px;
+	color: white;
+
+	a {
+		color: white;
+	}
+
+	.section-header {
+		margin-top: 110px;
+		font-size: 30px;
+		font-weight: bold;
+		position: relative;
+
+		&::before {
+			position: absolute;
+			top: 55px;
+			left: 50%;
+			transform: translateX(-50%);
+			// right: 100%;
+			height: 2px;
+			width: 81px;
+			background-color: $color-red;
+			content: "";
+		}
+	}
+
+	.section-content {
+		padding-left: 2.5%;
+		margin-top: 36px;
+		.contact{
+			margin-top: 13px;
+			font-size: 16px;
+		}
+
+		.info{
+			margin-top: 20px;
+			width: 280px;
+			font-size: 14px;
+			font-weight: 300;
+			color: yellow;
+			line-height: 1.2;
+
+		}
+
+		.social{
+			margin-top: 35px;
+		}
+	}
+
+	.row {
+		// background: #2c2c2c;
+	}
+
+	.section-map {
+		padding-right: 0;
+	}
+
+
+	// .section-contacts,
+	// .section-map {
+	// 	min-height: 600px;
+	// }
+}

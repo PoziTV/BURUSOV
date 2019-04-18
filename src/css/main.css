@@ -639,7 +639,7 @@
   position: relative;
 }
 
-.stages .section-content .row {
+.stages .section-content .inner-row {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -877,6 +877,61 @@
   left: 0;
   background: -webkit-gradient(linear, left bottom, left top, from(rgba(255, 255, 255, 0.8)), to(rgba(255, 255, 255, 0)));
   background: linear-gradient(to top, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.section-map-contacts {
+  min-height: 600px;
+  color: white;
+}
+
+.section-map-contacts a {
+  color: white;
+}
+
+.section-map-contacts .section-header {
+  margin-top: 110px;
+  font-size: 30px;
+  font-weight: bold;
+  position: relative;
+}
+
+.section-map-contacts .section-header::before {
+  position: absolute;
+  top: 55px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  height: 2px;
+  width: 81px;
+  background-color: #e60000;
+  content: "";
+}
+
+.section-map-contacts .section-content {
+  padding-left: 2.5%;
+  margin-top: 36px;
+}
+
+.section-map-contacts .section-content .contact {
+  margin-top: 13px;
+  font-size: 16px;
+}
+
+.section-map-contacts .section-content .info {
+  margin-top: 20px;
+  width: 280px;
+  font-size: 14px;
+  font-weight: 300;
+  color: yellow;
+  line-height: 1.2;
+}
+
+.section-map-contacts .section-content .social {
+  margin-top: 35px;
+}
+
+.section-map-contacts .section-map {
+  padding-right: 0;
 }
 
 .wrap {
