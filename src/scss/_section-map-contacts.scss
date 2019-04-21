@@ -25,15 +25,18 @@
 		}
 	}
 
-	.section-content {
-		padding-left: 2.5%;
+	.contacts-content {
+		padding-left: 3%;
+		padding-right: 3%;
 		margin-top: 36px;
-		.contact{
+		
+
+		.contact {
 			margin-top: 13px;
 			font-size: 16px;
 		}
 
-		.info{
+		.info {
 			margin-top: 20px;
 			width: 280px;
 			font-size: 14px;
@@ -43,8 +46,13 @@
 
 		}
 
-		.social{
+		.social {
 			margin-top: 35px;
+
+			.social-ref {
+				margin-right: 10px;
+			}
+
 		}
 	}
 

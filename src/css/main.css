@@ -907,17 +907,18 @@
   content: "";
 }
 
-.section-map-contacts .section-content {
-  padding-left: 2.5%;
+.section-map-contacts .contacts-content {
+  padding-left: 3%;
+  padding-right: 3%;
   margin-top: 36px;
 }
 
-.section-map-contacts .section-content .contact {
+.section-map-contacts .contacts-content .contact {
   margin-top: 13px;
   font-size: 16px;
 }
 
-.section-map-contacts .section-content .info {
+.section-map-contacts .contacts-content .info {
   margin-top: 20px;
   width: 280px;
   font-size: 14px;
@@ -926,8 +927,12 @@
   line-height: 1.2;
 }
 
-.section-map-contacts .section-content .social {
+.section-map-contacts .contacts-content .social {
   margin-top: 35px;
+}
+
+.section-map-contacts .contacts-content .social .social-ref {
+  margin-right: 10px;
 }
 
 .section-map-contacts .section-map {
