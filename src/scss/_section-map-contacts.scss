@@ -1,9 +1,14 @@
 .section-map-contacts {
 	min-height: 600px;
 	color: white;
+	// background: #2c2c2c;
 
 	a {
 		color: white;
+	}
+
+	&>.row {
+		background: #2c2c2c;
 	}
 
 	.section-header {
@@ -11,13 +16,11 @@
 		font-size: 30px;
 		font-weight: bold;
 		position: relative;
+		width: 300px;
 
 		&::before {
 			position: absolute;
 			top: 55px;
-			left: 50%;
-			transform: translateX(-50%);
-			// right: 100%;
 			height: 2px;
 			width: 81px;
 			background-color: $color-red;
@@ -26,47 +29,43 @@
 	}
 
 	.contacts-content {
-		padding-left: 3%;
-		padding-right: 3%;
-		margin-top: 36px;
-		
+		margin-top: 25px;
+		width: 300px;
 
 		.contact {
-			margin-top: 13px;
+			margin-top: 11px;
 			font-size: 16px;
+
+			.icon,
+			.data {
+				display: inline-block;
+			}
+
+			.data {
+				margin-left: 8px;
+				color: green;
+			}
 		}
 
 		.info {
-			margin-top: 20px;
+			margin-top: 22px;
 			width: 280px;
 			font-size: 14px;
 			font-weight: 300;
 			color: yellow;
 			line-height: 1.2;
-
 		}
 
 		.social {
-			margin-top: 35px;
+			margin-top: 38px;
 
 			.social-ref {
 				margin-right: 10px;
 			}
-
 		}
-	}
-
-	.row {
-		// background: #2c2c2c;
 	}
 
 	.section-map {
 		padding-right: 0;
 	}
-
-
-	// .section-contacts,
-	// .section-map {
-	// 	min-height: 600px;
-	// }
 }

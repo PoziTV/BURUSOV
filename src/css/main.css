@@ -888,19 +888,21 @@
   color: white;
 }
 
+.section-map-contacts > .row {
+  background: #2c2c2c;
+}
+
 .section-map-contacts .section-header {
   margin-top: 110px;
   font-size: 30px;
   font-weight: bold;
   position: relative;
+  width: 300px;
 }
 
 .section-map-contacts .section-header::before {
   position: absolute;
   top: 55px;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
   height: 2px;
   width: 81px;
   background-color: #e60000;
@@ -908,18 +910,27 @@
 }
 
 .section-map-contacts .contacts-content {
-  padding-left: 3%;
-  padding-right: 3%;
-  margin-top: 36px;
+  margin-top: 25px;
+  width: 300px;
 }
 
 .section-map-contacts .contacts-content .contact {
-  margin-top: 13px;
+  margin-top: 11px;
   font-size: 16px;
 }
 
+.section-map-contacts .contacts-content .contact .icon,
+.section-map-contacts .contacts-content .contact .data {
+  display: inline-block;
+}
+
+.section-map-contacts .contacts-content .contact .data {
+  margin-left: 8px;
+  color: green;
+}
+
 .section-map-contacts .contacts-content .info {
-  margin-top: 20px;
+  margin-top: 22px;
   width: 280px;
   font-size: 14px;
   font-weight: 300;
@@ -928,7 +939,7 @@
 }
 
 .section-map-contacts .contacts-content .social {
-  margin-top: 35px;
+  margin-top: 38px;
 }
 
 .section-map-contacts .contacts-content .social .social-ref {
