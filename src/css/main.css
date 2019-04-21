@@ -950,6 +950,10 @@
   padding-right: 0;
 }
 
+.section-content .data {
+  width: 650px;
+}
+
 .wrap {
   height: 10000px;
   font-family: "Open Sans";
