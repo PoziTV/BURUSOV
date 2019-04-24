@@ -10,14 +10,16 @@
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
 	<link href="src/fonts/MyriadPro.otf" rel="stylesheet">
 	<!-- Bootstrap -->
-	<link rel="stylesheet" href="build/css/bootstrap-3.4.1-dist/css/bootstrap.min.css">
-	<link rel="stylesheet" href="build/css//main.min.css">
+	<link rel="stylesheet" href="build/lib/bootstrap-3.4.1-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="build/css/main.min.css">
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 	<!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+	<![endif]-->
+	<link rel="stylesheet" type="text/css" href="build/lib/slick/slick.css" />
+	<!-- <link rel="stylesheet" type="text/css" href="build/lib/slick/slick-theme.css" /> -->
 </head>
 
 <body>
@@ -86,7 +88,7 @@
 			</div>
 
 
-			<div class="navbar navbar-default">
+			<div class="navbar navbar-default header-navbar">
 				<ul class="nav navbar-nav">
 					<li class="dropdown">
 						<a class="dropdown-toggle" data-toggle="dropdown" href="#">
@@ -1085,14 +1087,14 @@
 								<div class="contact phone" rel="noopener noreferrer nofollow">
 									<a href="tel:+79222222222">
 										<span class="icon"><img src="src/icons/bid-phone.png" alt=""></span>
-										<span class="data">+7 (922) 222-22-22</span>
+										<span class="cont-data">+7 (922) 222-22-22</span>
 									</a>
 								</div>
 
 								<div class="contact mail">
 									<a href="mailto:uidkkn@mail.ru" target="_blank" rel="noopener noreferrer nofollow">
 										<div class="icon"><img src="src/icons/bid-envelop.png" alt=""></div>
-										<div class="data">uidkkn@mail.ru</div>
+										<div class="cont-data">uidkkn@mail.ru</div>
 									</a>
 								</div>
 							</div>
@@ -1106,6 +1108,7 @@
 							</div>
 
 							<div class="social">
+
 								<a class="social-ref" href="https://www.facebook.com/" target="_blank"
 									rel="noopener noreferrer nofollow">
 									<img src="src/icons/social-facebook-btn-rounded.png" alt="">
@@ -1139,7 +1142,7 @@
 			</div>
 		</section>
 
-		<section class="partners container" id="partners">
+		<section class="section-partners container" id="partners">
 
 			<div class="section-header row no-gap text-center">
 				Партнеры
@@ -1155,7 +1158,33 @@
 					поэтапного.
 				</div>
 
-				<div class="slider">
+				<div class="slider row no-gap">
+
+					<div class="slider-arrow slider-prev col-xs-1">
+						<img src="src/icons/arrow-point-to-left.png" alt="img">
+					</div>
+
+					<div class="slider-items col-xs-22 no-gap">
+						<div class="slider-item"><a href="https://moscow.megafon.ru/" rel="noopener noreferrer nofollow"
+								target="_blank"><img src="src/icons/MegaFon.png" alt=""
+									class="h-centered img-responsive"></a></div>
+						<div class="slider-item"><a href="https://msk.tele2.ru/" rel="noopener noreferrer nofollow"
+								target="_blank"><img src="src/icons/tele2.png" alt=""
+									class="h-centered img-responsive"></a></div>
+						<div class="slider-item"><a href="https://moskva.mts.ru/personal"
+								rel="noopener noreferrer nofollow" target="_blank"><img src="src/icons/MTS.png" alt=""
+									class="h-centered img-responsive"></a></div>
+						<div class="slider-item"><a href="http://www.eens.ru/news/0/386.html"
+								rel="noopener noreferrer nofollow" target="_blank"><img src="src/icons/EkbEnrgSbyt.png"
+									alt="" class="h-centered img-responsive"></a></div>
+						<div class="slider-item"><a href="http://vilka-lozhka.com/" rel="noopener noreferrer nofollow"
+								target="_blank"><img src="src/icons/vilka-lozhka-logo.png" alt=""
+									class="h-centered img-responsive"></a></div>
+					</div>
+
+					<div class="slider-arrow slider-next  col-xs-1">
+						<img class="h-right" src="src/icons/arrow-point-to-right.png" alt="img">
+					</div>
 
 				</div>
 
@@ -1163,7 +1192,47 @@
 
 		</section>
 
-		<section class="footer"></section>
+		<section class="section-footer container ">
+			<!-- <div class="row"></div> -->
+
+			<div class="navbar footer-navbar">
+
+				<ul class="nav navbar-nav">
+					<li class="menu"><a class="text-center" href="#">Навигация</a></li>
+					<li class="menu"><a class="text-center" href="#">Информация</a></li>
+					<li class="menu"><a class="text-center" href="#">Контакты</a></li>
+					<li class="menu"><a class="text-center" href="#">Время работы</a></li>
+					<li class="menu"><a class="text-center" href="#">О нас</a></li>
+					<li class="menu"><a class="text-center" href="#">Портфолио</a></li>
+				</ul>
+
+			</div>
+
+			<div class="copyright text-center ">
+				&copy; Высокий уровень вовлечения представителей целевой
+				аудитории является четким<br>доказательством простого факта:
+				высокотехнологичная.
+			</div>
+
+			<div class="social h-centered">
+
+				<a class="social-ref" href="https://www.facebook.com/" target="_blank"
+					rel="noopener noreferrer nofollow">
+					<img src="src/icons/social-facebook-btn-rounded.png" alt="">
+				</a>
+
+				<a class="social-ref" href="https://twitter.com/?lang=ru" target="_blank"
+					rel="noopener noreferrer nofollow">
+					<img src="src/icons/social-twitter-btn-rounded.png" alt="">
+				</a>
+
+				<a class="social-ref" href="https://vk.com/" target="_blank" rel="noopener noreferrer nofollow">
+					<img src="src/icons/social-vkontakte-btn-rounded.png" alt="">
+				</a>
+
+			</div>
+
+		</section>
 
 	</div>
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -1174,15 +1243,20 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
 		integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous">
 	</script>
+
+	<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script type="text/javascript" src="build/lib/slick/slick.min.js"></script>
+	<script type="text/javascript" src="build/js/script.js"></script>
 	<!-- <script>
-		// // $('.popover').popover('show');
-		// $(document).ready(function () {
-		// 	$('[data-toggle="popover"]').popover({
-		// 		viewport: 'mm'
-		// 	});
-		// 	$('[data-toggle="popover"]').popover('show');
-		// });
+		$('.popover').popover('show');
+		$(document).ready(function () {
+			$('[data-toggle="popover"]').popover({
+				viewport: 'mm'
+			});
+			$('[data-toggle="popover"]').popover('show');
+		});
 	</script> -->
+
 </body>
 
 </html>
