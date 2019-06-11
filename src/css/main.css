@@ -230,18 +230,10 @@
   margin: 18px 0;
 }
 
-.panel-about .about-content-digit {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-}
-
 .panel-about .about-content-digit .digit {
-  width: 200px;
+  float: left;
+  margin-right: 16px;
+  width: 190px;
   line-height: 1;
   margin-bottom: 13px;
 }
@@ -359,8 +351,7 @@
 }
 
 .panel-spec .img-body {
-  padding-top: 44px;
-  padding-bottom: 8px;
+  padding-top: 40px;
   display: block;
   height: auto;
   max-width: 100%;
@@ -369,6 +360,7 @@
 .panel-spec .img-footer {
   position: relative;
   max-width: 400px;
+  margin-top: 15px;
 }
 
 .panel-spec .img-footer .img-footer-spec {
@@ -380,7 +372,6 @@
 .panel-spec .img-footer .img-footer-name {
   font-size: 18px;
   font-weight: 500;
-  padding-bottom: 35px;
   letter-spacing: 0.45px;
 }
 
@@ -396,6 +387,7 @@
 
 .panel-spec .img-footer .img-footer-text {
   font-size: 14px;
+  padding-top: 37px;
   padding-bottom: 18px;
   line-height: 19px;
   padding-left: 2px;
@@ -613,6 +605,7 @@
 
 .stages {
   min-height: 893px;
+  color: darkred;
 }
 
 .stages .section-header {
@@ -640,14 +633,12 @@
 }
 
 .stages .section-content .inner-row {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  position: relative;
 }
 
 .stages .section-content .stage {
-  max-width: 360px;
-  padding-bottom: 35px;
+  max-width: 400px;
+  padding-bottom: 33px;
   position: relative;
 }
 
@@ -657,8 +648,14 @@
 }
 
 .stages .section-content .stage .stage-content {
-  margin-top: 10px;
-  line-height: 1.28;
+  margin-top: 8px;
+  line-height: 1.35;
+}
+
+.stages .section-content .stage-number-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
 }
 
 .stages .section-content .stage-number-container .stage-number {
@@ -692,6 +689,7 @@
   left: 100%;
   -webkit-transform: translateX(-100%);
           transform: translateX(-100%);
+  padding-right: 40px;
 }
 
 @media (max-width: 767px) {
@@ -701,6 +699,10 @@
     -webkit-transform: translateX(0%);
             transform: translateX(0%);
   }
+}
+
+.stages .stage-right {
+  padding-left: 38px;
 }
 
 .bid {

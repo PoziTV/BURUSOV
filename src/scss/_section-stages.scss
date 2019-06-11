@@ -1,6 +1,7 @@
 .stages {
 
 	min-height: 893px;
+	color: darkred;
 
 	.section-header {
 		margin-top: 78px;
@@ -26,12 +27,13 @@
 		position: relative;
 
 		.inner-row {
-			display: flex;
+			// display: flex;
+			position: relative;
 		}
 
 		.stage {
-			max-width: 360px;
-			padding-bottom: 35px;
+			max-width: 400px; //360 + 40 padding right
+			padding-bottom: 33px;
 			position: relative;
 
 			.stage-header {
@@ -40,12 +42,17 @@
 			}
 
 			.stage-content {
-				margin-top: 10px;
-				line-height: 1.28;
+				margin-top: 8px;
+				line-height: 1.35;
 			}
 		}
 
 		.stage-number-container {
+
+			position: absolute;
+			top: 0;
+			bottom: 0;
+
 			.stage-number {
 				height: $stages-section-number-radius;
 				width: $stages-section-number-radius;
@@ -82,6 +89,7 @@
 			position: relative;
 			left: 100%;
 			transform: translateX(-100%);
+			padding-right: 40px;
 
 			@media (max-width: 767px) {
 				// max-width: 360px;
@@ -108,10 +116,10 @@
 		// }
 	}
 
-	// .stage-right {
-	// 	// padding-left: 40px;
-	// 	// border-left: 1px dashed red;
-
+	.stage-right {
+		padding-left: 38px;
+		// border-left: 1px dashed red;
+	}
 
 	// 	@media (max-width: 767px) {
 	// 		max-width: 360px;
