@@ -8,19 +8,21 @@
 	}
 
 	&>.row {
-		background: #2c2c2c;
+		// background: #2c2c2c;
 	}
 
 	.section-header {
-		margin-top: 110px;
+		margin-top: 111.5px;
 		font-size: 30px;
 		font-weight: bold;
 		position: relative;
 		width: 300px;
+		color: green;
 
 		&::before {
 			position: absolute;
-			top: 55px;
+			top: 50px;
+			left: 1px;
 			height: 2px;
 			width: 81px;
 			background-color: $color-red;
@@ -29,26 +31,35 @@
 	}
 
 	.contacts-content {
-		margin-top: 25px;
+		margin-top: 24px;
 		width: 300px;
 
-		.contact {
-			margin-top: 11px;
+		.contacts {
+			margin-top: 9px;
 			font-size: 16px;
 
-			.icon,
-			.cont-data {
-				display: inline-block;
+			a {
+				display: block;
+				height: 36px;
+				color: green;
 			}
 
 			.cont-data {
-				margin-left: 8px;
-				color: green;
+				margin-left: 7.5px;
+			}
+
+			.contact-phone {
+				margin-left: 2px;
+
+				.cont-data {
+					margin-left: 8.5px;
+					vertical-align: -2px;
+				}
 			}
 		}
 
 		.info {
-			margin-top: 22px;
+			margin-top: 10px;
 			width: 280px;
 			font-size: 14px;
 			font-weight: 300;
@@ -57,10 +68,10 @@
 		}
 
 		.social {
-			margin-top: 38px;
+			margin-top: 35px;
 
 			.social-ref {
-				margin-right: 10px;
+				margin-right: 9px;
 			}
 		}
 	}

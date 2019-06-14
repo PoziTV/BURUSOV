@@ -40,6 +40,7 @@
 		.popover-like {
 
 			padding: 8px 0;
+			// max-width: 800px;
 
 			// margin-left: 10%; //FIXME организовать отступ для стрелочки
 
@@ -47,21 +48,29 @@
 
 			.item-content {
 
+				max-height: 191px;
+				overflow: hidden;
+				position: relative;
+				margin-left: 30px;
+				padding-left: 33px;
+
 				.item-header-name {
 					font-size: 17px;
 					font-weight: bold;
 				}
 
 				.item-header-date {
+					margin-top: 3px;
 					font-size: 14px;
 					color: red;
 				}
 
-				max-height: 191px;
-				overflow: hidden;
-				position: relative;
-				margin-left: 30px;
-				padding-left: 30px;
+				.item-text {
+					color: red;
+					max-width: 805px;
+					margin-top: 7px;
+					line-height: 1.35;
+				}
 
 				.smoked-text {
 					position: absolute;
