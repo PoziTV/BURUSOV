@@ -56,7 +56,7 @@
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
   position: absolute;
-  background: url(/src/img/fon.png) no-repeat;
+  background: url(/src/img/fon-2.png) no-repeat;
   background-position-x: center;
   opacity: 0.6;
   padding: 0;
@@ -635,12 +635,13 @@
   font-size: 30px;
   font-weight: bold;
   position: relative;
+  padding-left: 10px;
 }
 
 .stages .section-header::before {
   position: absolute;
-  top: 55px;
-  left: 50%;
+  top: 54px;
+  left: 50.5%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
   height: 2px;
@@ -666,7 +667,7 @@
 
 .stages .section-content .stage .stage-header {
   font-size: 18px;
-  font-weight: bold;
+  font-weight: 600;
 }
 
 .stages .section-content .stage .stage-content {
@@ -732,33 +733,31 @@
 }
 
 .bid .section-header {
-  margin-top: 72px;
+  margin-top: 72.5px;
   font-size: 30px;
   font-weight: bold;
+  letter-spacing: -0.1px;
+  padding-left: 7px;
   position: relative;
 }
 
 .bid .section-header::before {
   position: absolute;
-  top: 55px;
-  left: 50%;
+  top: 54px;
+  left: 52%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
   height: 2px;
-  width: 81px;
+  width: 82px;
   background-color: #e60000;
   content: "";
 }
 
 .bid .section-content .weconnect {
+  font-size: 16px;
   position: relative;
-  margin-top: 33px;
-  letter-spacing: 0.9px;
-}
-
-.bid .section-content .weconnect div {
-  position: relative;
-  left: 5.5px;
+  margin-top: 31px;
+  padding-left: 9px;
 }
 
 .bid .section-content .inputs {
@@ -786,7 +785,7 @@
 }
 
 .bid .section-content .inputs .agree {
-  margin-top: 17px;
+  margin-top: 19px;
   padding-left: 8%;
   padding-right: 6.3%;
 }
@@ -816,7 +815,7 @@
 .bid .section-content .inputs .agree .agree-text {
   position: absolute;
   top: -3px;
-  left: 32px;
+  left: 34px;
   font-size: 14px;
   font-weight: normal;
   word-wrap: break-word;
@@ -824,7 +823,7 @@
 }
 
 .bid .section-content .bid-button-module {
-  margin-top: 28px;
+  margin-top: 26px;
 }
 
 .bid .section-content .bid-button-module .bid-btn {
@@ -842,9 +841,10 @@
 }
 
 .news .section-header {
-  margin-top: 80px;
+  margin-top: 81px;
   font-size: 30px;
   font-weight: bold;
+  padding-right: 3px;
   position: relative;
 }
 
@@ -861,33 +861,31 @@
 }
 
 .news .section-content {
-  margin-top: 34px;
+  margin-top: 36px;
 }
 
 .news .section-content .news-item {
   font-size: 14px;
   font-weight: 300;
-  padding-left: 3px;
-  padding-right: 3px;
-}
-
-.news .section-content .news-item div:not([class="news-img"]) {
-  margin-left: 4px;
-  margin-right: 4px;
+  padding-left: 7px;
+  padding-right: 7px;
 }
 
 .news .section-content .news-item .news-date {
-  margin-top: 7px;
+  margin-top: 14px;
+  font-weight: lighter;
+  line-height: 13.29px;
 }
 
 .news .section-content .news-item .news-caption {
   font-weight: bolder;
   letter-spacing: 0.3px;
-  line-height: 1.25;
+  line-height: 17.44px;
+  margin-top: 5px;
 }
 
 .news .section-content .news-item .news-content {
-  margin-top: 9px;
+  margin-top: 9.5px;
   position: relative;
   line-height: 1.2;
 }
@@ -899,8 +897,8 @@
   height: 100%;
   bottom: 0;
   left: 0;
-  background: -webkit-gradient(linear, left bottom, left top, from(rgba(255, 255, 255, 0.8)), to(rgba(255, 255, 255, 0)));
-  background: linear-gradient(to top, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0) 100%);
+  background: -webkit-gradient(linear, left bottom, left top, from(white), to(rgba(255, 255, 255, 0)));
+  background: linear-gradient(to top, white 0%, rgba(255, 255, 255, 0) 100%);
 }
 
 .section-map-contacts {

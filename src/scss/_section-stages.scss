@@ -8,11 +8,12 @@
 		font-size: 30px;
 		font-weight: bold;
 		position: relative;
+		padding-left: 10px;
 
 		&::before {
 			position: absolute;
-			top: 55px;
-			left: 50%;
+			top: 54px;
+			left: 50.5%;
 			transform: translateX(-50%);
 			// right: 100%;
 			height: 2px;
@@ -38,7 +39,7 @@
 
 			.stage-header {
 				font-size: 18px;
-				font-weight: bold;
+				font-weight: 600;
 			}
 
 			.stage-content {

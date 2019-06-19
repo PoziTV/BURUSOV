@@ -2,19 +2,21 @@
 	min-height: 632px;
 
 	.section-header {
-		margin-top: 72px;
+		margin-top: 72.5px;
 		font-size: 30px;
 		font-weight: bold;
+		letter-spacing: -0.1px;
+		padding-left: 7px;
 		position: relative;
 
 		&::before {
 			position: absolute;
-			top: 55px;
-			left: 50%;
+			top: 54px;
+			left: 52%;
 			transform: translateX(-50%);
 			// right: 100%;
 			height: 2px;
-			width: 81px;
+			width: 82px;
 			background-color: $color-red;
 			content: "";
 		}
@@ -24,14 +26,10 @@
 
 		// position: relative;
 		.weconnect {
+			font-size: 16px;
 			position: relative;
-			margin-top: 33px;
-			letter-spacing: 0.9px;
-
-			div {
-				position: relative;
-				left: 5.5px;
-			}
+			margin-top: 31px;
+			padding-left: 9px;
 		}
 
 		.inputs {
@@ -62,7 +60,7 @@
 			}
 
 			.agree {
-				margin-top: 17px;
+				margin-top: 19px;
 				padding-left: 8%;
 				padding-right: 6.3%;
 
@@ -92,7 +90,7 @@
 				.agree-text {
 					position: absolute;
 					top: -3px;
-					left: 32px;
+					left: 34px;
 					font-size: 14px;
 					font-weight: normal;
 					word-wrap: break-word;
@@ -104,7 +102,7 @@
 		}
 
 		.bid-button-module {
-			margin-top: 28px;
+			margin-top: 26px;
 
 			.bid-btn {
 
