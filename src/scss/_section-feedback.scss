@@ -1,0 +1,150 @@
+.section-feedback {
+	min-height: 1126px;
+
+	.section-header {
+
+		margin-top: 42px;
+		// padding-top: 74px;
+
+		.header-text {
+			position: relative;
+			// display: inline-block;
+			font-size: 30px;
+			font-weight: bold;
+
+			&::before {
+				position: absolute;
+				top: 55px;
+				left: 50%;
+				transform: translateX(-50%);
+				// right: 100%;
+				height: 2px;
+				width: 81px;
+				background-color: $color-red;
+				content: "";
+			}
+		}
+	}
+
+	.section-content {
+		margin-top: 79px;
+
+		.content-row {
+			margin-bottom: 50px;
+			position: relative;
+			// padding: 0 7px;
+		}
+
+		.feedback-foto {
+			position: absolute;
+			top: 0%;
+			bottom: 0%;
+
+			.foto-container {
+				position: absolute;
+				top: 50%;
+				transform: translateY(-50%);
+			}
+
+		}
+
+		.item-content {
+
+			// max-height: 191px;
+			// overflow: hidden;
+			position: relative;
+			// margin-left: 35px;
+			// padding-left: 30px;
+			// padding-right: 25px;
+			// margin-left: 40px;
+			// margin-bottom: 50px;
+			border: 1px solid red;
+			border-radius: 10px;
+			min-height: 214px;
+
+
+
+			.item-header-name {
+				margin-top: 17px;
+				font-size: 18px;
+				font-weight: $semi-bold;
+			}
+
+			.item-header-date {
+				margin-top: 3px;
+				font-size: 14px;
+				color: red;
+			}
+
+			.item-text {
+				color: red;
+				// max-width: 805px;
+				margin-top: 7px;
+				line-height: 19px;
+				margin-left: -1px;
+
+			}
+
+			.smoked-text {
+				position: absolute;
+				display: block;
+				top: 0;
+				left: 0;
+				height: 191px;
+				background: linear-gradient(to top, grey, rgba(255, 255, 255, 0));
+				z-index: 100;
+				width: 100%;
+			}
+
+			// }
+		}
+
+		.item-content-right {
+			color: green;
+			padding-right: 25px;
+			padding-left: 30px;
+			margin-left: 40px;
+
+			&::before {
+				position: absolute;
+				content: "";
+				left: -35px;
+				top: 50%;
+				transform: translateY(-50%);
+				// height: ;
+				border: 35px solid transparent;
+				border-right-color: green;
+				border-left: 0px;
+			}
+
+		}
+
+		.item-content-left {
+			color: green;
+			padding-right: 25px; //22
+			padding-left: 30px; //33
+			margin-right: 40px;
+			margin-left: 8px;
+
+			&::after {
+				position: absolute;
+				content: "";
+				right: -35px;
+				top: 50%;
+				transform: translateY(-50%);
+				// height: ;
+				border: 35px solid transparent;
+				border-left-color: green;
+				border-right: 0px;
+			}
+
+		}
+
+
+		.v-cent {
+			position: relative;
+			top: 50% !important;
+			transform: translateY(-50%);
+		}
+	}
+}

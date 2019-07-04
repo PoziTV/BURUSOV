@@ -1,4 +1,4 @@
-.stages {
+.section-timeline {
 
 	min-height: 893px;
 	color: darkred;
@@ -25,26 +25,38 @@
 
 	.section-content {
 		margin-top: 65px;
-		position: relative;
 
-		.inner-row {
-			// display: flex;
+		.stage {
+			// max-width: 400px; //360 + 40 padding right
+			padding-bottom: 33px;
 			position: relative;
 		}
 
-		.stage {
-			max-width: 400px; //360 + 40 padding right
-			padding-bottom: 33px;
-			position: relative;
+		.stage-header {
+			font-size: 18px;
+			font-weight: 600;
+		}
 
+		.stage-content {
+			margin-top: 8px;
+			line-height: 1.35;
+		}
+
+		.stage-2 {
+			padding-bottom: 31.5px;
+		}
+
+		.stage-3 {
+			padding-bottom: 29px;
+		}
+
+		.stage-4 {
 			.stage-header {
-				font-size: 18px;
-				font-weight: 600;
+				margin-top: 3px;
 			}
 
 			.stage-content {
-				margin-top: 8px;
-				line-height: 1.35;
+				margin-top: 15px;
 			}
 		}
 
@@ -57,8 +69,9 @@
 			.stage-number {
 				height: $stages-section-number-radius;
 				width: $stages-section-number-radius;
-				background: $color-red;
+				// background: $color-red;
 				border-radius: 50%;
+				border: 1px solid green;
 
 				.value {
 					color: white;
@@ -74,53 +87,36 @@
 				left: 50%;
 				top: 0;
 				bottom: 0;
-				// display: cell;
-				// height: 100%-$stages-section-number-radius;
 				border: 1px dashed $color-red;
 				z-index: -1;
-
 			}
 		}
 
 		.stage-left {
-			// padding-right: 40px;
-			// border-right: 1px dashed red;
 			text-align: right;
-			// display: inline-block;
-			position: relative;
-			left: 100%;
-			transform: translateX(-100%);
-			padding-right: 40px;
+			padding-right: 39px;
 
 			@media (max-width: 767px) {
-				// max-width: 360px;
-				text-align: left;
-				// padding-right: 0px;
-				// margin-right: auto;
-				left: 0%;
-				transform: translateX(0%);
-				// border-right: 0;
-				// border-left: 2px dashed red;
-				// margin-left: 20px;
-				// margin-right: 20px;
-				// padding-left: 20px;
-
+				// 	// max-width: 360px;
+				text-align: justify;
+				padding-right: 0px;
+				// 	// margin-right: auto;
+				// 	left: 0%;
+				// 	transform: translateX(0%);
+				// 	// border-right: 0;
+				// 	// border-left: 2px dashed red;
+				// 	// margin-left: 20px;
+				// 	// margin-right: 20px;
+				// 	// padding-left: 20px;
 			}
-
 		}
 
-		// &::after{
-		// 	position: absolute;
-		// 	top: 0;
-		// 	right: -30px;
-		// 	content: "eggg";
-		// }
+		.stage-right {
+			padding-left: 38px;
+		}
 	}
 
-	.stage-right {
-		padding-left: 38px;
-		// border-left: 1px dashed red;
-	}
+
 
 	// 	@media (max-width: 767px) {
 	// 		max-width: 360px;
@@ -137,6 +133,5 @@
 
 	// 	}
 	// }
-
 
 }
