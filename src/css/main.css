@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .h-centered {
   display: inline-block;
   position: relative;
@@ -283,22 +284,22 @@
   margin: 0 auto;
 }
 
-.panel-services {
+.section-services {
   min-height: 1003px;
 }
 
-.panel-services .panel-header {
+.section-services .section-header {
   padding: 61px 5px 15px 5px;
 }
 
-.panel-services .panel-header .header-text {
+.section-services .section-header .header-text {
   position: relative;
   display: inline-block;
   font-size: 30px;
   font-weight: bolder;
 }
 
-.panel-services .panel-header .header-text::before {
+.section-services .section-header .header-text::before {
   position: absolute;
   top: 55px;
   left: 50%;
@@ -310,18 +311,44 @@
   content: "";
 }
 
-.panel-services .img-body {
-  padding-top: 44px;
-  padding-bottom: 13px;
+.section-services .section-content .img-body {
+  margin-top: 46px;
   display: inline-block;
   height: auto;
   max-width: 100%;
+  position: relative;
 }
 
-.panel-services .img-footer {
+.section-services .section-content .img-body:hover::before {
+  position: absolute;
+  content: "Высокий уровень вовлечения представителей целевой	аудитории является четким доказательством простого факта\003a высокотехнологичная концепция общественного уклада не дает нам иного выбора\003a кроме определения поэтапного и последовательного развития общества\002e  Предварительные выводы неутешительны\003a  глубокий уровень погружения\002e";
+  color: white;
+  top: 0;
+  left: 0;
+  bottom: 4px;
+  right: 0;
+  padding-left: 32px;
+  padding-right: 35px;
+  padding-top: 24px;
+  background-color: #494949;
+  opacity: 0.3;
+}
+
+.section-services .section-content .img-body:hover::after {
+  position: absolute;
+  content: "";
+  height: 4px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: red;
+}
+
+.section-services .section-content .img-footer {
+  margin-top: 10px;
   font-size: 18px;
-  padding-bottom: 15px;
-  letter-spacing: 0.45px;
+  font-weight: 600;
+  padding-bottom: 16px;
 }
 
 .panel-spec {
@@ -477,6 +504,7 @@
   font-size: 30px;
   font-weight: bolder;
   line-height: 1.25;
+  padding-right: 8px;
 }
 
 .panel-portfolio .panel-header .header-text::before {
@@ -554,6 +582,7 @@
   position: relative;
   font-size: 30px;
   font-weight: bold;
+  padding-left: 14px;
 }
 
 .section-feedback .section-header .header-text::before {
@@ -569,7 +598,57 @@
 }
 
 .section-feedback .section-content {
-  margin-top: 79px;
+  margin-top: 41px;
+}
+
+.section-feedback .section-content .add-new-feedback {
+  display: block;
+  height: 38px;
+  width: 44px;
+  background-color: #e60000;
+  position: relative;
+  left: 91.5%;
+  font-size: 0;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+}
+
+.section-feedback .section-content .add-new-feedback .circle {
+  position: relative;
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background-color: white;
+}
+
+.section-feedback .section-content .add-new-feedback .circle::before {
+  content: "";
+  width: 2px;
+  height: 12px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background-color: #e60000;
+  z-index: 100;
+}
+
+.section-feedback .section-content .add-new-feedback .circle::after {
+  content: "";
+  width: 12px;
+  height: 2px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background-color: #e60000;
+  z-index: 100;
 }
 
 .section-feedback .section-content .content-row {
@@ -667,11 +746,11 @@
   border-right: 0px;
 }
 
-.section-feedback .section-content .v-cent {
-  position: relative;
-  top: 50% !important;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+.section-feedback .all-feedbacks {
+  height: 54px;
+  padding-top: 14px;
+  margin-left: 11px;
+  margin-top: 10px;
 }
 
 .section-timeline {

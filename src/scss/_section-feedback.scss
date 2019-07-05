@@ -11,6 +11,7 @@
 			// display: inline-block;
 			font-size: 30px;
 			font-weight: bold;
+			padding-left: 14px;
 
 			&::before {
 				position: absolute;
@@ -27,7 +28,58 @@
 	}
 
 	.section-content {
-		margin-top: 79px;
+		margin-top: 41px;
+
+		.add-new-feedback {
+			display: block;
+			height: 38px;
+			width: 44px;
+			background-color: $color-red;
+			position: relative;
+			left: 91.5%;
+			font-size: 0;
+			border-top-left-radius: 2px;
+			border-top-right-radius: 2px;
+			// border: 1px dashed green;
+
+			.circle {
+				position: relative;
+				height: 24px;
+				width: 24px;
+				border-radius: 50%;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				background-color: white;
+				// border: 1px solid green;
+
+				//vertical line
+				&::before {
+					content: "";
+					width: 2px;
+					height: 12px;
+					position: absolute;
+					top: 50%;
+					left: 50%;
+					transform: translate(-50%, -50%);
+					background-color: $color-red;
+					z-index: 100;
+				}
+
+				// horizonyal line
+				&::after {
+					content: "";
+					width: 12px;
+					height: 2px;
+					position: absolute;
+					top: 50%;
+					left: 50%;
+					transform: translate(-50%, -50%);
+					background-color: $color-red;
+					z-index: 100;
+				}
+			}
+		}
 
 		.content-row {
 			margin-bottom: 50px;
@@ -49,20 +101,10 @@
 		}
 
 		.item-content {
-
-			// max-height: 191px;
-			// overflow: hidden;
 			position: relative;
-			// margin-left: 35px;
-			// padding-left: 30px;
-			// padding-right: 25px;
-			// margin-left: 40px;
-			// margin-bottom: 50px;
 			border: 1px solid red;
 			border-radius: 10px;
 			min-height: 214px;
-
-
 
 			.item-header-name {
 				margin-top: 17px;
@@ -95,8 +137,6 @@
 				z-index: 100;
 				width: 100%;
 			}
-
-			// }
 		}
 
 		.item-content-right {
@@ -132,19 +172,18 @@
 				right: -35px;
 				top: 50%;
 				transform: translateY(-50%);
-				// height: ;
 				border: 35px solid transparent;
 				border-left-color: green;
 				border-right: 0px;
 			}
 
 		}
+	}
 
-
-		.v-cent {
-			position: relative;
-			top: 50% !important;
-			transform: translateY(-50%);
-		}
+	.all-feedbacks {
+		height: 54px;
+		padding-top: 14px;
+		margin-left: 11px;
+		margin-top: 10px;
 	}
 }

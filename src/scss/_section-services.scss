@@ -1,0 +1,77 @@
+.section-services {
+	min-height: 1003px;
+
+	.section-header {
+
+		padding: 61px 5px 15px 5px;
+		// padding-top: 74px;
+
+		.header-text {
+			position: relative;
+			display: inline-block;
+			font-size: 30px;
+			font-weight: bolder;
+
+			&::before {
+				position: absolute;
+				top: 55px;
+				left: 50%;
+				transform: translateX(-50%);
+				// right: 100%;
+				height: 2px;
+				width: 81px;
+				background-color: rgb(0, 255, 21);
+				content: "";
+			}
+		}
+	}
+
+	.section-content {
+
+		// margin-top: 44px;
+		.img-body {
+			margin-top: 46px;
+			// margin-bottom: 13px;
+			display: inline-block;
+			height: auto;
+			max-width: 100%;
+			position: relative;
+
+			&:hover::before {
+				position: absolute;
+				content: "Высокий уровень вовлечения представителей целевой	аудитории является четким доказательством простого факта\003a
+высокотехнологичная концепция общественного уклада не дает нам иного выбора\003a кроме определения поэтапного и последовательного развития общества\002e  Предварительные выводы неутешительны\003a  глубокий уровень погружения\002e";
+color: white;
+				top: 0;
+				left: 0;
+				bottom: 4px;
+				right: 0;
+				padding-left: 32px;
+				padding-right: 35px;
+				padding-top: 24px;
+				background-color: #494949;
+				opacity: 0.3 // z-index: 1000;
+			}
+
+			&:hover::after {
+				position: absolute;
+				content: "";
+				// outline: 2px solid red;
+				// top: 0;
+				height: 4px;
+				left: 0;
+				bottom: 0;
+				right: 0;
+				background-color: red;
+				// z-index: 1000;
+			}
+		}
+
+		.img-footer {
+			margin-top: 10px;
+			font-size: 18px;
+			font-weight: $semi-bold;
+			padding-bottom: 16px;
+		}
+	}
+}
