@@ -6,11 +6,11 @@
 
 
 @import "_panel-main";
-@import "_panel-about";
+@import "_section-about";
 @import "_section-services";
-@import "_panel-spec";
-@import "_panel-advantage";
-@import "_panel-portfolio";
+@import "_section-spec";
+@import "_section-advantage";
+@import "_section-portfolio";
 @import "_section-feedback";
 @import "_section-timeline";
 @import "_section-bid";
@@ -23,6 +23,15 @@
 // body {
 // 	height: 100%;
 // }
+body {
+	cursor: url(/src/cursors/01.png), default;
+
+
+}
+
+a {
+	cursor: url(/src/cursors/01.png), default !important;
+}
 
 .wrap {
 	height: $all-heght;

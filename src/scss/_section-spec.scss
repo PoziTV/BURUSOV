@@ -1,7 +1,7 @@
-.panel-spec {
+.section-spec {
 	min-height: 876px;
 
-	.panel-header {
+	.section-header {
 
 		padding: 70px 5px 15px 5px;
 		// padding-top: 74px;
@@ -47,9 +47,9 @@
 
 		.img-footer-name {
 			font-size: 18px;
-			font-weight: 500;
+			font-weight: $semi-bold;
 			// padding-bottom: 35px;
-			letter-spacing: 0.45px;
+			// letter-spacing: 0.45px;
 
 			&::before {
 				position: absolute;
