@@ -6,8 +6,8 @@
 
 	.logo {
 		font-size: 26px;
-		font-weight: 700;
-		letter-spacing: 0.45px;
+		font-weight: $semi-bold;
+		letter-spacing: 0.65px;
 
 		.logo-black {
 			color: black;
@@ -40,6 +40,6 @@
 	.phone-num {
 		// display: block;
 		font-size: 16px;
-		font-weight: bold;
+		font-weight: $semi-bold;
 	}
 }

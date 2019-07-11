@@ -1,11 +1,9 @@
 @import "_custom";
 @import "_fon_img-i-setka";
-@import "_header";
-@import "_navbar";
 
 
 
-@import "_panel-main";
+@import "_section-main";
 @import "_section-about";
 @import "_section-services";
 @import "_section-spec";
@@ -26,14 +24,25 @@
 body {
 	cursor: url(/src/cursors/01.png), default;
 
+	a {
+		cursor: url(/src/cursors/01.png), default;
 
-}
+		&:hover {
+			cursor: url(/src/cursors/01.png), default;
+		}
+	}
 
-a {
-	cursor: url(/src/cursors/01.png), default !important;
+	:any-link {
+		cursor: url(/src/cursors/01.png), default;
+
+		&:hover {
+			cursor: url(/src/cursors/01.png), default;
+		}
+	}
 }
 
 .wrap {
-	height: $all-heght;
+	// height: $all-heght;
+	// min-height:  $all-heght;
 	font-family: "Open Sans";
 }
