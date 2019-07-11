@@ -26,7 +26,7 @@
 	}
 
 	.about-content-text {
-		max-width: 515px;
+		// max-width: 515px;
 		font-family: "Myriad Pro";
 		// letter-spacing: 0.38px;
 		font-size: 14px;
@@ -35,7 +35,7 @@
 		line-height: 19px;
 		// padding: 0 11px;
 		padding-left: 10px;
-		padding-right: 20px;
+		padding-right: 25px;
 		padding-top: 10px;
 		float: left;
 
@@ -49,10 +49,30 @@
 		// display: flex;
 		// flex-wrap: wrap;
 		// justify-content: space-around;
+		margin-left: -10px;
+		// width: 190px;
+		line-height: 1;
+
+		min-height: 201px;
 
 		.digit {
 			// float: left;
 			// margin-right: 16px;
+
+			margin-bottom: 13px;
+			min-height: 188px;
+
+			@media (min-width: 700px) and (max-width: 768px) {
+				width: 33.33%;
+				float: left;
+			}
+
+			@media (min-width: 500px) and (max-width: 699px) {
+				width: 50%;
+				float: left;
+			}
+			// max-width: 100%;
+			// float: left;	
 
 			&:nth-child(1) .digit-text {
 				width: 130px;
@@ -82,10 +102,6 @@
 				font-family: "Open Sans"
 			}
 
-			// width: 190px;
-			line-height: 1;
-			margin-bottom: 13px;
-			min-height: 188px;
 
 			.digit-vol {
 				padding-top: 25px;
@@ -101,12 +117,13 @@
 			}
 
 			.digit-text {
-				padding-top:  10px;
+				padding-top: 10px;
 				font-family: "Myriad Pro";
 				font-size: 13.99px;
 				line-height: 1.2;
 				margin: 0 auto;
 			}
+
 		}
 	}
 }
