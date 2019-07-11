@@ -24,7 +24,7 @@
 
 <body>
 
-	<!-- <div class="fon_i_setka">
+	<div class="fon_i_setka hidden-xs hidden-sm hidden-md">
 		<div class="container-fluid fon">
 			<div class="col-lg-1 myCol">1</div>
 			<div class="col-lg-1 myCol">2</div>
@@ -51,23 +51,24 @@
 			<div class="col-lg-1 myCol">23</div>
 			<div class="col-lg-1 myCol">24</div>
 		</div>
-	</div> -->
+	</div>
 
 
 	<div class="wrap">
 
 		<section class="section-main container" id="main">
 
-			<div class="main-header row ">
-				<div class="col-lg-7 header-logo-container ">
+			<div class="main-header row no-gap">
+
+				<div class="col-lg-7 header-logo-container header-logo">
 					<div class="logo ">
 						<span class="logo-black ">Web</span><span class="logo-red">Design</span>
 					</div>
 				</div>
-				<div class="col-lg-6 header-theme-container ">
+				<div class="col-lg-6 header-theme-container header-logo">
 					<span class="theme">Создание идеального<br>сайта Вашей компании</span>
 				</div>
-				<div class="col-lg-7 header-phone-container ">
+				<div class="col-lg-7 header-phone-container header-logo">
 					<div class="media phone">
 						<div class="media-left media-middle phone-sign">
 							<img class="media-object" src="src/icons/sign-phone.png" alt="phone-sign">
@@ -78,7 +79,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-4 header-adress-container ">
+				<div class="col-lg-4 header-adress-container header-logo">
 					<div class="adress-gps-point ">
 						<img src="src/icons/gpsPoint.png" alt="gpsPoint">
 					</div>
@@ -87,11 +88,8 @@
 						г. Екатеринбург,<br>ул. 8 марта 22
 					</div>
 				</div>
-				<!-- <div class="col-lg-3">
 
-				</div> -->
 			</div>
-
 
 			<div class="row navbar  header-navbar">
 				<ul class="nav navbar-nav">
@@ -127,48 +125,45 @@
 					<!-- <li><a href="#"><span class="glyphicon glyphicon-log-in"></span></a></li> -->
 				</ul>
 			</div>
-
-
-			<div class="row slogan container">
-				<div class="slogan-1 row ">
-					<div class="col-lg-9">
-						<span class="h-centered text-1">Создай совой<br>идеальный сайт</span>
-					</div>
-					<!-- <div class="col-lg-15"></div> -->
+			<!-- </section> -->
+			<div class="row slogan-1 no-gap ">
+				<div class=" col-lg-9 ">
+					<span class="h-centered text-1">Создай совой<br>идеальный сайт</span>
 				</div>
-				<div class="slogan-2 row ">
-					<div class="col-lg-10">
-						<span class="h-centered text-2">Мы поможем воплотить твои мечты в
-							реальность</span>
-					</div>
-					<div class="col-lg-14"></div>
-				</div>
+			</div>
 
-				<div class="row  btns col-sm-10 no-gap">
-					<div class="main-btn-container h-centered">
-						<div class="col-sm-12">
-							<div class="btn btn-lg btn-yes ">Оставить заявку</div>
-						</div>
-						<div class="col-sm-12">
-							<div class="btn btn-lg btn-ask">Подробнее</div>
-						</div>
+			<div class="slogan-2 row no-gap">
+				<div class="col-lg-10">
+					<span class="h-centered text-2">Мы поможем воплотить твои мечты в
+						реальность</span>
+				</div>
+			</div>
+
+			<div class="row  btns col-sm-10 no-gap">
+				<div class="main-btn-container h-centered">
+					<div class="col-sm-12">
+						<div class="btn btn-lg btn-yes ">Оставить заявку</div>
+					</div>
+					<div class="col-sm-12">
+						<div class="btn btn-lg btn-ask">Подробнее</div>
 					</div>
 				</div>
 			</div>
 
 
 		</section>
-		<div class="clearfix visible-block"></div>
+
+		<!-- <div class="clearfix visible-block"></div> -->
 		<section class="section-about container" id="about">
 
-			<div class="row about-header ">
-				<div class="col-lg-24 no-gap">
+			<div class="row about-header no-gap">
+				<div class="col-lg-24 no-in-gap">
 					<span class="header-text">О компании</span>
 				</div>
 			</div>
 
 			<div class="row center-block about-content">
-				<div class="col-lg-11 about-content-text">
+				<div class=" about-content-text">
 					<p>Высокий уровень вовлечения представителей целевой аудитории является
 						четким доказательством простого факта: высокотехнологичная концепция общественного уклада не
 						дает нам иного выбора, кроме определения поэтапного и последовательного развития общества.
@@ -185,49 +180,50 @@
 						способы реализации прогресса профессионального сообщества.
 					</p>
 				</div>
+				<!-- <div class="clearfix visible-block"></div> -->
 				<!-- FIXME переписать по возможности, правая колонка не укладывается в макет
 возможно, нужно использовать flex для обеих колонок -->
-				<div class="col-lg-13 about-content-digit text-center no-gap">
+				<div class="col-lg-13 col-md-10 about-content-digit text-center no-gap">
+					<div class="row no-gap">
 
+						<div class="digit col-lg-8 col-xs-24 col-sm-6  col-md-12">
+							<div class="digit-vol">3912</div>
+							<div class="digit-header">позиций</div>
+							<div class="digit-text">Имеется на Ваш выбор для создания сайта</div>
+						</div>
 
-					<div class="digit">
-						<div class="digit-vol">3912</div>
-						<div class="digit-header">позиций</div>
-						<div class="digit-text">Имеется на Ваш выбор для создания сайта</div>
+						<div class="digit col-lg-8 col-xs-24 col-sm-6  col-md-12">
+							<div class="digit-vol">5659</div>
+							<div class="digit-header">заказчиков</div>
+							<div class="digit-text">Обращаются к нам на протяжении нескольких лет</div>
+						</div>
+
+						<div class="digit col-lg-8 col-xs-24 col-sm-6  col-md-12">
+							<div class="digit-vol">25</div>
+							<div class="digit-header">специалистов</div>
+							<div class="digit-text">Своего дела готовы ежедневно проконсультировать
+								Вас</div>
+						</div>
+
+						<div class="digit col-lg-8 col-xs-24 col-sm-6  col-md-12">
+							<div class="digit-vol">456</div>
+							<div class="digit-header">злементов</div>
+							<div class="digit-text">Имеется на в нашем портфолио</div>
+						</div>
+
+						<div class="digit col-lg-8 col-xs-24 col-sm-6  col-md-12">
+							<div class="digit-vol">22</div>
+							<div class="digit-header">года</div>
+							<div class="digit-text">Мы работаем имеено для Вас</div>
+						</div>
+
+						<div class="digit col-lg-8 col-xs-24 col-sm-6  col-md-12">
+							<div class="digit-vol">892</div>
+							<div class="digit-header">специалистов</div>
+							<div class="digit-text">Имеется на Ваш<br>выбор для создания индивидуального
+								сайта</div>
+						</div>
 					</div>
-
-					<div class="digit">
-						<div class="digit-vol">5659</div>
-						<div class="digit-header">заказчиков</div>
-						<div class="digit-text">Обращаются к нам на протяжении нескольких лет</div>
-					</div>
-
-					<div class="digit">
-						<div class="digit-vol">25</div>
-						<div class="digit-header">специалистов</div>
-						<div class="digit-text">Своего дела готовы ежедневно проконсультировать
-							Вас</div>
-					</div>
-
-					<div class="digit">
-						<div class="digit-vol">456</div>
-						<div class="digit-header">злементов</div>
-						<div class="digit-text">Имеется на в нашем портфолио</div>
-					</div>
-
-					<div class="digit">
-						<div class="digit-vol">22</div>
-						<div class="digit-header">года</div>
-						<div class="digit-text">Мы работаем имеено для Вас</div>
-					</div>
-
-					<div class="digit">
-						<div class="digit-vol">892</div>
-						<div class="digit-header">специалистов</div>
-						<div class="digit-text">Имеется на Ваш<br>выбор для создания индивидуального
-							сайта</div>
-					</div>
-
 				</div>
 			</div>
 
